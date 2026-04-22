@@ -1,0 +1,137 @@
+faculty:
+- name: 안태인
+  role: Assistant Professor
+  name_en: Tae In Ahn
+  email: tiahn@snu.ac.kr
+  phone: 02-880-4564
+  photo: assets/img/team/ahn-taein.jpg
+  education:
+  - year: 2008
+    degree: B.S.
+    field: Department of Horticulture
+    university: Kangwon National University
+  - year: 2019
+    degree: Ph.D
+    field: Horticultural Science and Biotechnology
+    university: Seoul National University
+  career:
+  - year: 2019
+    ongoing: false
+    text: Post-Doc, Smart Farm Convergence Research Center, KIST
+  - year: 2022
+    ongoing: true
+    text: Assistant Professor, Dept. of Agriculture, Forestry and Bioresources, SNU
+  - year: 2023
+    ongoing: true
+    text: Executive Director, Korean Vertical Farm Research Society
+  - year: 2025
+    ongoing: true
+    text: Joint Professor, Dept. of Smart System Science, SNU
+  - year: 2025
+    ongoing: true
+    text: Group Leader, Future Energy Innovation Initiative, SNU
+  research_activities:
+  - text: Extensive SCIE publications on plant-environment system dynamics via in silico analysis
+  - text: Multiple patents in recirculating nutrient culture systems
+  - text: Collaborative research networks with leading vertical farm institutions worldwide
+  - text: Large-scale government projects (MAFRA) and joint industry R&D in CEA/vertical farming
+  external_activities:
+  - text: 2022 Director, Korean Society for Horticultural Science
+  - text: 2025 Editorial Board, Korean Society for Horticultural Science
+  - text: 2025 Director, Vertical Farm Research Society
+  - text: 2025 Director, Korean Society of Bio-Environment Control
+  - text: 2026 Associate Editor, Frontiers in Plant Science
+  major: Greenhouse Horticulture & Plant Factory
+  lab: GHPF Lab (Room 3101)
+  office: Bldg. 200, Room 3118
+phd: []
+phd_students:
+- name: 김재우
+  email: plmokn78@snu.ac.kr
+  photo: assets/img/team/kim-jaewoo.jpg
+- name: 권성민
+  email: leodemian@snu.ac.kr
+  photo: assets/img/team/Seongmin-Kwon.jpg
+- name: 김다해
+  email: dahaekim@snu.ac.kr
+  photo: assets/img/team/kim-dahae.jpg
+- name: 임은정
+  email: eunjeong21@snu.ac.kr
+  photo: assets/img/team/lim-eunjeong.jpg
+- name: 윤승리
+  email: ysl2848@snu.ac.kr
+  photo: assets/img/team/yoon-seungri.svg
+- name: 김다솔
+  email: evergreen_dasol@snu.ac.kr
+  photo: assets/img/team/kim-dasol.jpg
+- name: 이혜란
+  email: hellen0@snu.ac.kr
+  photo: assets/img/team/lee-hyeran.jpg
+- name: 이예영
+  email: yeyeonglee@snu.ac.kr
+  photo: assets/img/team/Yeyoung-Lee.jpg
+- name: 김예린
+  email: dpflskol@snu.ac.kr
+  photo: assets/img/team/kim-yerin.svg
+- name: 강병주
+  email: qudwn8331@snu.ac.kr
+  photo: assets/img/team/kang-byeongju.svg
+ms_students:
+- name: 김수진
+  email: suj.kim7949@snu.ac.kr
+  photo: assets/img/team/kim-sujin.svg
+- name: 한민희
+  email: 109vv@snu.ac.kr
+  photo: assets/img/team/han-minhee.svg
+- name: 김현지
+  email: khjkhj0628@snu.ac.kr
+  photo: assets/img/team/Hyeonjii-Kim.jpg
+- name: 김정호
+  email: ddd162@snu.ac.kr
+  photo: assets/img/team/kim-jeongho.svg
+- name: 고준영
+  email: sat1153@snu.ac.kr
+  photo: assets/img/team/Junyoung-Ko.jpg
+interns:
+- name: 조준영
+  email: highlife0320@snu.ac.kr
+  photo: assets/img/team/jo-junyoung.jpg
+- name: 김민서
+  email: rodi7555@snu.ac.kr
+  photo: assets/img/team/kim-minseo.jpg
+- name: 방유찬
+  email: uchan812@snu.ac.kr
+  photo: assets/img/team/yuchan-Bang.jpg
+former_faculty:
+- name: 손정익
+  name_en: Jung Eek Son
+  period: 1997 ~ 2022
+  photo: assets/img/team/jung eek son.jpg
+  education:
+  - degree: B.S.
+    university: Seoul National University
+  - degree: M.S. · Ph.D.
+    university: The University of Tokyo
+  - degree: Post-Doc
+    university: Purdue University
+  career:
+  - text: Professor, Dept. of Agriculture, Forestry and Bioresources, SNU (1997–2022)
+  - text: Visiting Professor, University of Arizona
+  - text: Short-term Researcher, Kennedy Space Center (NASA)
+  awards:
+  - text: Prime Minister's Award
+  - text: Minister of Science and Technology Award
+  title: Professor Emeritus, Dept. of Agriculture, Forestry and Bioresources, SNU
+  subtitle: Director, Smart Farm R&D Program
+alumni:
+- name: 황인하
+  note: KIST Smart Farm Research Center
+  photo: assets/img/team/hwang-inha.jpg
+- name: 강준현
+  note: KIST Smart Farm Research Center
+  photo: assets/img/team/kang-junhyeon.jpg
+- name: 정은규
+  photo: assets/img/team/EunKyu-Jung.jpg
+- name: 윤하민
+  note: Macrogen Europe, Netherlands
+  photo: assets/img/team/Hamin-Yoon.jpg

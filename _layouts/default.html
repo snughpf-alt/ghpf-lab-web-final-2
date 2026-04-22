@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <meta name="author" content="{{ site.author | escape }}">
+  <meta name="color-scheme" content="light dark">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+
+  <!-- Prevent FOUC: apply saved theme before render -->
+  <script>
+    (function(){
+      var t = localStorage.getItem('theme');
+      if(t === 'dark') document.documentElement.setAttribute('data-theme','dark');
+    })();
+  </script>
+</head>
+<body{% if page.url == '/' or page.url == '/index.html' %} class="home"{% endif %}>
+
+  <!-- Skip to main content -->
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- NAVIGATION -->
+  <nav class="nav" aria-label="Main navigation">
+    <div class="container nav__inner">
+      <div class="nav__left">
+        <a class="brand" href="{{ '/' | relative_url }}">
+          {{ site.title }}
+        </a>
+
+        <div class="nav__links">
+          <div class="nav__dropdown">
+            <a href="{{ '/team' | relative_url }}" class="nav__dropdown-trigger{% if page.url == '/team' or page.url == '/team/' %} nav--active{% endif %}">
+              People
+              <svg class="nav__dropdown-arrow" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <div class="nav__dropdown-menu">
+              <a href="{{ '/people/professor' | relative_url }}">PI</a>
+              <a href="{{ '/people/phd' | relative_url }}">Ph.D. Students</a>
+              <a href="{{ '/people/ms' | relative_url }}">M.S. Students</a>
+              <a href="{{ '/people/undergrad' | relative_url }}">Undergraduates</a>
+              <a href="{{ '/people/alumni' | relative_url }}">Alumni</a>
+            </div>
+          </div>
+          <div class="nav__dropdown">
+            <a href="{{ '/research' | relative_url }}" class="nav__dropdown-trigger{% if page.url contains '/research' %} nav--active{% endif %}">
+              Research
+              <svg class="nav__dropdown-arrow" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <div class="nav__dropdown-menu">
+              <div class="nav__dropdown-group-label">Decoding Complexity</div>
+              <a href="{{ '/research/phenotyping' | relative_url }}">3D Plant Modeling</a>
+              <a href="{{ '/research/growth-dynamics' | relative_url }}">Growth Dynamics</a>
+              <div class="nav__dropdown-group-label">Engineering Systems</div>
+              <a href="{{ '/research/autonomous-control' | relative_url }}">LLM in Agriculture</a>
+              <a href="{{ '/research/energy-food-nexus' | relative_url }}">Energy-Food Nexus</a>
+            </div>
+          </div>
+          <a href="{{ '/publications' | relative_url }}"{% if page.url == '/publications' or page.url == '/publications/' %} class="nav--active"{% endif %}>Publications</a>
+          <a href="{{ '/gallery' | relative_url }}"{% if page.url == '/gallery' or page.url == '/gallery/' %} class="nav--active"{% endif %}>Gallery</a>
+          <a href="{{ '/contact' | relative_url }}"{% if page.url == '/contact' or page.url == '/contact/' %} class="nav--active"{% endif %}>Contact</a>
+        </div>
+      </div>
+
+      <div class="nav__right">
+        <div class="nav__search">
+          <svg class="nav__search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+          <input type="text" class="nav__search-input" placeholder="Search...">
+        </div>
+
+        <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/>
+          </svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE CONTENT -->
+  <main id="main-content">
+    {{ content }}
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__copy">
+      <span class="footer__logo-tap" aria-hidden="true">&copy; {{ site.time | date: "%Y" }} GHPF Lab.</span> All rights reserved.
+    </div>
+  </footer>
+
+  <!-- Monchhichi Easter Egg -->
+  <div class="monchhichi" id="monchhichi">
+    <img class="mc__img" src="{{ '/assets/img/monchhichi.png' | relative_url }}" alt="" draggable="false">
+    <p class="mc__msg">You found me!</p>
+  </div>
+
+  <script>
+    (function(){
+      /* Theme toggle */
+      var themeBtn = document.querySelector('.theme-toggle');
+      if(themeBtn){
+        themeBtn.addEventListener('click', function(){
+          var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+          if(isDark){
+            document.documentElement.removeAttribute('data-theme');
+            localStorage.setItem('theme','light');
+          } else {
+            document.documentElement.setAttribute('data-theme','dark');
+            localStorage.setItem('theme','dark');
+          }
+        });
+      }
+
+      /* Search – simple client-side search across page text */
+      (function(){
+        var input = document.querySelector('.nav__search-input');
+        if(!input) return;
+
+        /* Build search index from Jekyll data */
+        var pages = [
+          {url: '{{ "/team" | relative_url }}', title: 'People'},
+          {url: '{{ "/people/professor" | relative_url }}', title: 'PI'},
+          {url: '{{ "/people/phd" | relative_url }}', title: 'Ph.D. Students'},
+          {url: '{{ "/people/ms" | relative_url }}', title: 'M.S. Students'},
+          {url: '{{ "/people/undergrad" | relative_url }}', title: 'Undergraduates'},
+          {url: '{{ "/people/alumni" | relative_url }}', title: 'Alumni'},
+          {url: '{{ "/research" | relative_url }}', title: 'Research'},
+          {% for track in site.data.research.tracks %}{% for area in track.areas %}{url: '{{ "/research/" | append: area.id | relative_url }}', title: '{{ area.title | escape }}'},
+          {% endfor %}{% endfor %}{url: '{{ "/publications" | relative_url }}', title: 'Publications'},
+          {url: '{{ "/gallery" | relative_url }}', title: 'Gallery'},
+          {url: '{{ "/contact" | relative_url }}', title: 'Contact'}
+        ];
+
+        /* Create results container */
+        var results = document.createElement('div');
+        results.className = 'nav__search-results';
+        input.parentNode.appendChild(results);
+
+        var debounce;
+        input.addEventListener('input', function(){
+          clearTimeout(debounce);
+          debounce = setTimeout(function(){ doSearch(input.value.trim()); }, 200);
+        });
+
+        input.addEventListener('focus', function(){
+          if(input.value.trim().length >= 2) doSearch(input.value.trim());
+        });
+
+        document.addEventListener('click', function(e){
+          if(!e.target.closest('.nav__search')) results.classList.remove('active');
+        });
+
+        function doSearch(q){
+          if(q.length < 2){ results.classList.remove('active'); return; }
+          var lower = q.toLowerCase();
+          var hits = [];
+
+          /* Search nav pages by title */
+          pages.forEach(function(p){
+            if(p.title.toLowerCase().indexOf(lower) !== -1){
+              hits.push({title: p.title, url: p.url, page: p.title});
+            }
+          });
+
+          /* Search visible text on current page */
+          var main = document.getElementById('main-content');
+          if(main){
+            var headings = main.querySelectorAll('h1,h2,h3,h4');
+            headings.forEach(function(h){
+              var text = h.textContent.trim();
+              if(text.toLowerCase().indexOf(lower) !== -1){
+                var id = h.id || h.closest('[id]')?.id || '';
+                var pageTitle = document.title.split('|')[0].trim();
+                hits.push({
+                  title: text.substring(0,60),
+                  url: window.location.pathname + (id ? '#'+id : ''),
+                  page: pageTitle
+                });
+              }
+            });
+
+            /* Search card titles, names, etc. */
+            var cards = main.querySelectorAll('.member-card__name, .pub-title, .research-area-block__content h3');
+            cards.forEach(function(c){
+              var text = c.textContent.trim();
+              if(text.toLowerCase().indexOf(lower) !== -1){
+                var section = c.closest('[id]');
+                var secId = section ? section.id : '';
+                hits.push({
+                  title: text.substring(0,60),
+                  url: window.location.pathname + (secId ? '#'+secId : ''),
+                  page: document.title.split('|')[0].trim()
+                });
+              }
+            });
+          }
+
+          /* Deduplicate */
+          var seen = {};
+          hits = hits.filter(function(h){
+            var key = h.title + h.url;
+            if(seen[key]) return false;
+            seen[key] = true;
+            return true;
+          });
+
+          /* Render */
+          if(hits.length === 0){
+            results.innerHTML = '<div class="nav__search-empty">No results found</div>';
+          } else {
+            results.innerHTML = hits.slice(0,8).map(function(h){
+              return '<a class="nav__search-result" href="' + escAttr(h.url) + '">' +
+                '<div class="nav__search-result__title">' + escHtml(h.title) + '</div>' +
+                '<div class="nav__search-result__page">' + escHtml(h.page) + '</div>' +
+              '</a>';
+            }).join('');
+          }
+          results.classList.add('active');
+        }
+
+        function escHtml(s){
+          var d = document.createElement('div');
+          d.textContent = s;
+          return d.innerHTML;
+        }
+        function escAttr(s){
+          return s.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/'/g,'&#39;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+        }
+      })();
+
+      /* Monchhichi easter egg */
+      (function(){
+        var logo = document.querySelector('.footer__logo-tap');
+        var mc = document.getElementById('monchhichi');
+        if(!logo || !mc) return;
+        var count = 0, timer = null;
+        logo.addEventListener('click', function(){
+          count++;
+          clearTimeout(timer);
+          timer = setTimeout(function(){ count = 0; }, 1500);
+          if(count >= 7){
+            count = 0;
+            mc.classList.add('monchhichi--visible');
+            setTimeout(function(){ mc.classList.remove('monchhichi--visible'); }, 4000);
+          }
+        });
+        mc.addEventListener('click', function(){ mc.classList.remove('monchhichi--visible'); });
+      })();
+    })();
+  </script>
+</body>
+</html>

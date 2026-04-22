@@ -1,0 +1,78 @@
+<section class="hero hero--fullscreen" {% if include.image %}style="--hero-img:url('{{ include.image | relative_url }}')"{% endif %}>
+  {% if include.images %}
+  <div class="hero__slideshow">
+    {% assign hero_imgs = include.images | split: ',' %}
+    {% for img in hero_imgs %}
+    <div class="hero__slide{% if forloop.first %} hero__slide--active{% endif %}" style="background-image:url('{{ img | strip | relative_url }}')"></div>
+    {% endfor %}
+  </div>
+  <button class="hero__arrow hero__arrow--prev" aria-label="Previous slide">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+  </button>
+  <button class="hero__arrow hero__arrow--next" aria-label="Next slide">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+  </button>
+  {% endif %}
+  <div class="hero__overlay"></div>
+
+  <div class="container hero__inner">
+    {% if include.pill %}
+    <p class="pill">{{ include.pill }}</p>
+    {% endif %}
+
+    <h1>{{ include.title }}</h1>
+
+    {% if include.subtitle %}
+    <p class="lead">{{ include.subtitle }}</p>
+    {% endif %}
+
+    {% if include.primary_text %}
+    <div class="hero__cta">
+      <a class="btn btn--outline" href="{{ include.primary_link | relative_url }}">
+        {{ include.primary_text }}
+      </a>
+      {% if include.secondary_text %}
+      <a class="btn btn--outline" href="{{ include.secondary_link | relative_url }}">
+        {{ include.secondary_text }}
+      </a>
+      {% endif %}
+    </div>
+    {% endif %}
+  </div>
+
+  <a class="hero__scroll" href="#content-start" aria-label="Scroll down">
+    <span class="hero__scroll-label">Highlights</span>
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="6 9 12 15 18 9"/>
+    </svg>
+  </a>
+</section>
+
+{% if include.images %}
+<script>
+(function(){
+  var slides = document.querySelectorAll('.hero__slide');
+  if(slides.length < 2) return;
+  var current = 0;
+  var timer;
+
+  function goTo(idx){
+    slides[current].classList.remove('hero__slide--active');
+    current = ((idx % slides.length) + slides.length) % slides.length;
+    slides[current].classList.add('hero__slide--active');
+  }
+
+  function resetTimer(){
+    clearInterval(timer);
+    timer = setInterval(function(){ goTo(current + 1); }, 6000);
+  }
+
+  var prev = document.querySelector('.hero__arrow--prev');
+  var next = document.querySelector('.hero__arrow--next');
+  if(prev) prev.addEventListener('click', function(){ goTo(current - 1); resetTimer(); });
+  if(next) next.addEventListener('click', function(){ goTo(current + 1); resetTimer(); });
+
+  resetTimer();
+})();
+</script>
+{% endif %}

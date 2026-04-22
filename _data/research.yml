@@ -1,0 +1,74 @@
+tracks:
+- id: decoding-complexity
+  title: Decoding Plant-Environment Complexity
+  subtitle: Scientific Approach / Wet-Dry Modeling
+  color: '#0d7377'
+  areas:
+  - id: phenotyping
+    title: 3D Plant Modeling & Light-Environment Simulation
+    tagline: Beyond observation — computing light at canopy scale
+    topics:
+    - 3D Scanning
+    - Ray Tracing
+    - Canopy Architecture
+    - Light Distribution
+    - Phenomics
+    color: '#0d7377'
+    icon: phenotyping
+    description: 'Going beyond simple observation, we use 3D scanning and ray-tracing simulators to compute complex light movement and interactions at the canopy level. This enables precise understanding of how light distributes across individual plants and entire crop populations, driving more accurate environmental control strategies.
+
+      '
+  - id: growth-dynamics
+    title: Plant Growth Dynamics
+    tagline: Translating biological complexity into efficient numerical models
+    topics:
+    - Growth Modeling
+    - Dimensionality Reduction
+    - Resource Allocation
+    - Crop Simulation
+    - Functional-Structural Models
+    color: '#0a6365'
+    icon: growth
+    description: 'We convert biological complexity — such as plant resource allocation mechanisms — into high-efficiency numerical models through dimensionality reduction, building the backbone of accurate growth simulators. This methodological approach bridges the gap between raw biological data and computationally tractable growth predictions.
+
+      '
+  description: 'We decode nature''s complexity through engineering perspectives and data, building foundational models for simulation. Rather than focusing on mathematical models or AI techniques per se, we concentrate on uncovering the physiological principles of plants and their relationships with the environment hidden within data.
+
+    '
+- id: engineering-systems
+  title: Engineering Cultivation Systems
+  subtitle: Engineering Approach / System Application
+  color: '#1a56db'
+  areas:
+  - id: autonomous-control
+    title: LLM Application in Agriculture
+    tagline: Encoding expert knowledge into language models for agricultural decision-making
+    topics:
+    - Large Language Models
+    - Autonomous Irrigation
+    - Knowledge Graph
+    - Function Calling
+    - Experience Memory
+    color: '#1a56db'
+    icon: llm
+    description: 'Skilled growers and researchers accumulate domain knowledge over years of experience. We explore whether large language models can capture that expertise and apply it to real agricultural tasks such as autonomous irrigation management.
+
+      '
+  - id: energy-food-nexus
+    title: Energy-Food Nexus & System Optimization
+    tagline: Maximizing the conversion of energy to biomass
+    topics:
+    - Vertical Farming
+    - Energy Efficiency
+    - Leaf Temperature Modeling
+    - Crop Energy Balance
+    - Environmental Integrated Modeling
+    - System Optimization
+    color: '#1e40af'
+    icon: energy
+    description: 'In high-density production systems such as vertical farms, we implement active energy-agriculture systems that maximize the efficiency of converting input electrical energy into crop biomass. This is where Track 1''s dynamics modeling finds its ultimate application.
+
+      '
+  description: 'Building on the principles and data decoded and modeled in Track 1, we design and optimize sustainable agricultural production systems that remain stable even under external uncertainties.
+
+    '

@@ -1,0 +1,44 @@
+{% assign default_photo = '/assets/img/team/default.svg' | relative_url %}
+{% assign members = site.data.team[include.collection] %}
+
+<div class="grid team-grid">
+  {% for p in members %}
+    {% if include.split_parttime and p.photo contains '.svg' %}
+    {% else %}
+    <div class="card team-card">
+      <div class="team-card__photo">
+        <img src="{{ p.photo | default: 'assets/img/team/default.svg' | relative_url }}" alt="{{ p.name | escape }}" onerror="this.src='{{ default_photo }}'">
+      </div>
+      <div class="team-card__info">
+        <h3>{{ p.name | escape }}</h3>
+        {% if p.email %}<a class="team-card__email" href="mailto:{{ p.email | escape }}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>{{ p.email | escape }}</a>{% endif %}
+        {% if include.show_note and p.note %}<p class="team-card__note">{{ p.note | escape }}</p>{% endif %}
+        {% if p.degree %}<p class="team-card__note">{{ p.degree | escape }}</p>{% endif %}
+        {% if p.year %}<p class="team-card__note">{{ p.year | escape }}</p>{% endif %}
+        {% if p.current %}<p class="team-card__note">{{ p.current | escape }}</p>{% endif %}
+      </div>
+    </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+{% if include.split_parttime %}
+{% assign has_parttime = false %}
+{% for p in members %}{% if p.photo contains '.svg' %}{% assign has_parttime = true %}{% break %}{% endif %}{% endfor %}
+
+{% if has_parttime %}
+<div class="team-parttime">
+  <h4 class="team-parttime__title">Part-time Members</h4>
+  <ul class="team-parttime__list">
+    {% for p in members %}
+      {% if p.photo contains '.svg' %}
+      <li>
+        <span class="team-parttime__name">{{ p.name | escape }}</span>
+        {% if p.email %}<a class="team-parttime__email" href="mailto:{{ p.email | escape }}">{{ p.email | escape }}</a>{% endif %}
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+{% endif %}

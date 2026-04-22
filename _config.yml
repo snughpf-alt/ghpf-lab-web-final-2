@@ -1,0 +1,18 @@
+title: "GHPF Lab"
+description: "Greenhouse Horticulture and Plant Factory Lab — Seoul National University"
+
+url: "https://evergreendasol.github.io"
+baseurl: "/Trial-2-lab-web"
+
+author: "Tae In Ahn"
+email: "tiahn@snu.ac.kr"
+timezone: "Asia/Seoul"
+lang: "en"
+
+markdown: kramdown
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-sitemap

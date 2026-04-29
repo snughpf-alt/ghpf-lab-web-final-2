@@ -107,8 +107,8 @@ title: 3D Plant Modeling & Light-Environment Simulation
       </div>
 
       <div class="rd-topics-grid__card">
-        <img src="{{ '/assets/img/research/scan-model.png' | relative_url }}" alt="3D plant canopy model in Blender">
-        <h3>3D Scan Archive</h3>
+        <img src="{{ '/assets/img/research/cucumber-3d-scan.png' | relative_url }}" alt="3D scanned cucumber plant mesh in Blender">
+        <h3>3D Mesh</h3>
         <p class="rd-topics-grid__desc">Accumulate scanned plant models across different growth stages for comparative analysis</p>
       </div>
 

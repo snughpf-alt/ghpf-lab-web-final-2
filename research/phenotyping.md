@@ -102,12 +102,12 @@ title: 3D Plant Modeling & Light-Environment Simulation
       <div class="rd-topics-grid__card">
         <img src="{{ '/assets/img/research/3d-scanning.png' | relative_url }}" alt="3D scanning of plant with handheld scanner">
         <div class="rd-topics-grid__caption">
+          <h3>3D Scanning</h3>
           <div class="rd-topics-grid__keywords">
             <span class="badge">Handheld Scanner</span>
             <span class="badge">Crop Architecture</span>
             <span class="badge">Multi-stage Capture</span>
           </div>
-          <h3>3D Scanning</h3>
         </div>
         <p class="rd-topics-grid__desc">Reconstruct crop architecture at multiple growth stages using handheld 3D scanners</p>
       </div>
@@ -119,12 +119,12 @@ title: 3D Plant Modeling & Light-Environment Simulation
       <div class="rd-topics-grid__card">
         <img src="{{ '/assets/img/research/cucumber-3d-scan.png' | relative_url }}" alt="3D scanned cucumber plant mesh in Blender">
         <div class="rd-topics-grid__caption">
+          <h3>3D Mesh</h3>
           <div class="rd-topics-grid__keywords">
             <span class="badge">Mesh Reconstruction</span>
             <span class="badge">Canopy Architecture</span>
             <span class="badge">Growth Archive</span>
           </div>
-          <h3>3D Mesh</h3>
         </div>
         <p class="rd-topics-grid__desc">Accumulate scanned plant models across different growth stages for comparative analysis</p>
       </div>
@@ -136,12 +136,12 @@ title: 3D Plant Modeling & Light-Environment Simulation
       <div class="rd-topics-grid__card">
         <img src="{{ '/assets/img/research/scan-view-2.png' | relative_url }}" alt="Ray-tracing simulation in ANSYS" style="transform:scale(1.55);transform-origin:80% 80%">
         <div class="rd-topics-grid__caption">
+          <h3>Light Simulation</h3>
           <div class="rd-topics-grid__keywords">
             <span class="badge">Ray Tracing</span>
             <span class="badge">Light Interception</span>
             <span class="badge">Photosynthesis</span>
           </div>
-          <h3>Light Simulation</h3>
         </div>
         <p class="rd-topics-grid__desc">Simulate light interception and estimate photosynthesis to optimize supplemental lighting and energy costs</p>
       </div>

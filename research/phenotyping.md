@@ -120,7 +120,7 @@ title: 3D Plant Modeling & Light-Environment Simulation
       </div>
 
       <div class="rd-topics-grid__card">
-        <img src="{{ '/assets/img/research/scan-view-2.png' | relative_url }}" alt="Ray-tracing simulation in ANSYS" style="transform:scale(1.55);transform-origin:80% 58%">
+        <img src="{{ '/assets/img/research/scan-view-2.png' | relative_url }}" alt="Ray-tracing simulation in ANSYS" style="transform:scale(1.55);transform-origin:80% 80%">
         <h3>Light Simulation</h3>
         <p class="rd-topics-grid__desc">Simulate light interception and estimate photosynthesis to optimize supplemental lighting and energy costs</p>
       </div>

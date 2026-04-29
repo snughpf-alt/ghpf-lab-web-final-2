@@ -131,18 +131,6 @@ title: Plant Growth Dynamics
       </div>
 
       <div class="rd-topics-grid__card">
-        <img src="{{ '/assets/img/research/stomata.png' | relative_url }}" alt="Leaf stomata microscope view" style="object-fit:contain;background:rgba(0,0,0,.35)">
-        <div class="rd-topics-grid__caption">
-          <h3>Leaf Temperature<br>&amp; Evapotranspiration</h3>
-          <div class="rd-topics-grid__keywords">
-            <span class="badge">Stomatal Dynamics</span>
-            <span class="badge">Evapotranspiration</span>
-            <span class="badge">Energy Balance</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="rd-topics-grid__card">
         <img src="{{ '/assets/img/research/photosynthesis-lab.png' | relative_url }}" alt="Photosynthesis measurement setup">
         <div class="rd-topics-grid__caption">
           <h3>Photosynthetic<br>Physiology</h3>
@@ -150,6 +138,18 @@ title: Plant Growth Dynamics
             <span class="badge">Light Response</span>
             <span class="badge">Photoinhibition</span>
             <span class="badge">Gas Exchange</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="rd-topics-grid__card">
+        <img src="{{ '/assets/img/research/stomata.png' | relative_url }}" alt="Leaf stomata microscope view" style="object-fit:contain;background:rgba(0,0,0,.35)">
+        <div class="rd-topics-grid__caption">
+          <h3>Leaf Temperature<br>&amp; Evapotranspiration</h3>
+          <div class="rd-topics-grid__keywords">
+            <span class="badge">Stomatal Dynamics</span>
+            <span class="badge">Evapotranspiration</span>
+            <span class="badge">Energy Balance</span>
           </div>
         </div>
       </div>

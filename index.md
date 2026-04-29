@@ -35,7 +35,7 @@ title: Home
 
       <a class="card highlight-card highlight-card--media" href="{{ '/research/phenotyping' | relative_url }}">
         <div class="highlight-card__media">
-          <img src="{{ '/assets/img/research/scan-view.png' | relative_url }}" alt="3D plant mesh in Blender" loading="lazy">
+          <img src="{{ '/assets/img/research/scan-model.png' | relative_url }}" alt="Reconstructed 3D plant canopy in Blender" loading="lazy">
         </div>
         <div class="highlight-card__body">
           <span class="highlight-card__label">Track 1 · Decoding Complexity</span>

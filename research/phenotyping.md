@@ -53,14 +53,17 @@ title: 3D Plant Modeling & Light-Environment Simulation
         <text x="170" y="248" text-anchor="middle" fill="rgba(255,255,255,.5)" font-size="12" font-family="monospace" font-weight="600">Light Interception &amp; Photosynthesis</text>
 
         <!-- Animated photons -->
-        <circle r="2.5" fill="rgba(255,220,80,.8)">
+        <circle r="2.5" fill="rgba(255,220,80,.8)" opacity="0">
           <animateMotion dur="3s" repeatCount="indefinite" path="M170,82 L170,115 L260,88"/>
+          <animate attributeName="opacity" begin="0s" to="1" dur="0.01s" fill="freeze"/>
         </circle>
-        <circle r="2.5" fill="rgba(255,220,80,.65)">
+        <circle r="2.5" fill="rgba(255,220,80,.65)" opacity="0">
           <animateMotion dur="4s" begin="0.8s" repeatCount="indefinite" path="M170,82 L162,115 L154,162 L265,135"/>
+          <animate attributeName="opacity" begin="0.8s" to="1" dur="0.01s" fill="freeze"/>
         </circle>
-        <circle r="2.5" fill="rgba(255,220,80,.5)">
+        <circle r="2.5" fill="rgba(255,220,80,.5)" opacity="0">
           <animateMotion dur="4.5s" begin="1.6s" repeatCount="indefinite" path="M170,82 L158,115 L146,162 L142,205"/>
+          <animate attributeName="opacity" begin="1.6s" to="1" dur="0.01s" fill="freeze"/>
         </circle>
       </svg>
     </div>

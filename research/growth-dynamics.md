@@ -96,15 +96,6 @@ title: Plant Growth Dynamics
   <div class="rd-overview-split__text">
     <h2 class="rd-overview-split__heading">Translating biology into numerical models</h2>
     <p class="rd-overview-split__desc">We convert biological complexity — such as energy-use dynamics and input resource efficiency — into high-efficiency numerical models through dimensionality reduction, building the backbone of accurate growth simulators. This methodological approach bridges the gap between raw biological data and computationally tractable growth predictions.</p>
-    <div class="research-detail__topics" style="margin-bottom:28px">
-      {% for area in site.data.research.tracks[0].areas %}
-        {% if area.id == 'growth-dynamics' %}
-          {% for topic in area.topics %}
-          <span class="badge research-badge">{{ topic | escape }}</span>
-          {% endfor %}
-        {% endif %}
-      {% endfor %}
-    </div>
   </div>
   <div class="rd-overview-split__visual" style="background:transparent;padding:24px">
     <img src="{{ '/assets/img/research/growth-dynamics-overview.png' | relative_url }}" alt="Plant Growth Dynamics - Finite Resource Budgets" class="rd-overview-split__illustration" style="border-radius:12px;max-width:100%;max-height:none">

@@ -120,17 +120,38 @@ title: Plant Growth Dynamics
     <div class="rd-topics-grid">
       <div class="rd-topics-grid__card">
         <img src="{{ '/assets/img/research/light-quality.png' | relative_url }}" alt="Light Quality - plant factory with different LED spectra">
-        <h3>Light Quality</h3>
+        <div class="rd-topics-grid__caption">
+          <h3>Light Quality</h3>
+          <div class="rd-topics-grid__keywords">
+            <span class="badge">Spectral Tuning</span>
+            <span class="badge">Photoreceptors</span>
+            <span class="badge">Light Recipe</span>
+          </div>
+        </div>
       </div>
 
       <div class="rd-topics-grid__card">
         <img src="{{ '/assets/img/research/stomata.png' | relative_url }}" alt="Leaf stomata microscope view">
-        <h3>Leaf Temperature<br>&amp; Evapotranspiration</h3>
+        <div class="rd-topics-grid__caption">
+          <h3>Leaf Temperature<br>&amp; Evapotranspiration</h3>
+          <div class="rd-topics-grid__keywords">
+            <span class="badge">Stomatal Dynamics</span>
+            <span class="badge">Evapotranspiration</span>
+            <span class="badge">Energy Balance</span>
+          </div>
+        </div>
       </div>
 
       <div class="rd-topics-grid__card">
         <img src="{{ '/assets/img/research/photosynthesis-lab.png' | relative_url }}" alt="Photosynthesis measurement setup">
-        <h3>Photosynthetic<br>Physiology</h3>
+        <div class="rd-topics-grid__caption">
+          <h3>Photosynthetic<br>Physiology</h3>
+          <div class="rd-topics-grid__keywords">
+            <span class="badge">Light Response</span>
+            <span class="badge">Photoinhibition</span>
+            <span class="badge">Gas Exchange</span>
+          </div>
+        </div>
       </div>
     </div>
   </div>

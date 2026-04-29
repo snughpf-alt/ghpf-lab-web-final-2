@@ -23,7 +23,7 @@ title: Home
     <div class="grid grid--2">
       <a class="card highlight-card highlight-card--media" href="{{ '/research/growth-dynamics' | relative_url }}">
         <div class="highlight-card__media">
-          <img src="{{ '/assets/img/research/flir-thermal-spectra.jpg' | relative_url }}" alt="FLIR thermal imaging of leaves under different light spectra" loading="lazy">
+          <img src="{{ '/assets/img/research/seedling-tray.jpg' | relative_url }}" alt="Densely packed seedlings in a nursery tray" loading="lazy">
         </div>
         <div class="highlight-card__body">
           <span class="highlight-card__label">Track 1 · Decoding Complexity</span>

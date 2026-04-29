@@ -131,7 +131,7 @@ title: Plant Growth Dynamics
       </div>
 
       <div class="rd-topics-grid__card">
-        <img src="{{ '/assets/img/research/photosynthesis-lab.png' | relative_url }}" alt="Photosynthesis measurement setup">
+        <img src="{{ '/assets/img/research/photosynthesis-lab.png' | relative_url }}" alt="Photosynthesis measurement setup" style="transform:translateY(-12%)">
         <div class="rd-topics-grid__caption">
           <h3>Photosynthetic<br>Physiology</h3>
           <div class="rd-topics-grid__keywords">

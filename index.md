@@ -21,7 +21,10 @@ title: Home
     </div>
 
     <div class="grid grid--2">
-      <a class="card highlight-card" href="{{ '/research/growth-dynamics' | relative_url }}">
+      <a class="card highlight-card highlight-card--media" href="{{ '/research/growth-dynamics' | relative_url }}">
+        <div class="highlight-card__media">
+          <img src="{{ '/assets/img/research/flir-thermal-spectra.jpg' | relative_url }}" alt="FLIR thermal imaging of leaves under different light spectra" loading="lazy">
+        </div>
         <div class="highlight-card__body">
           <span class="highlight-card__label">Track 1 · Decoding Complexity</span>
           <h3>Plant Growth Dynamics</h3>
@@ -42,7 +45,10 @@ title: Home
         </div>
       </a>
 
-      <a class="card highlight-card" href="{{ '/research/autonomous-control' | relative_url }}">
+      <a class="card highlight-card highlight-card--media" href="{{ '/research/autonomous-control' | relative_url }}">
+        <div class="highlight-card__media">
+          <img src="{{ '/assets/img/research/strawberry-field-sensing.jpg' | relative_url }}" alt="In-field strawberry sensing with cameras and a tablet showing live data" loading="lazy">
+        </div>
         <div class="highlight-card__body">
           <span class="highlight-card__label">Track 2 · Engineering Systems</span>
           <h3>LLM in Agriculture</h3>
@@ -51,7 +57,10 @@ title: Home
         </div>
       </a>
 
-      <a class="card highlight-card" href="{{ '/research/energy-food-nexus' | relative_url }}">
+      <a class="card highlight-card highlight-card--media" href="{{ '/research/energy-food-nexus' | relative_url }}">
+        <div class="highlight-card__media">
+          <img src="{{ '/assets/img/research/plant-factory-chambers.jpg' | relative_url }}" alt="Plant factory cultivation chambers with WALZ photosynthesis instrument" loading="lazy">
+        </div>
         <div class="highlight-card__body">
           <span class="highlight-card__label">Track 2 · Engineering Systems</span>
           <h3>Energy-Food Nexus</h3>

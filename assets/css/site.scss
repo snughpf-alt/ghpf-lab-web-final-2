@@ -508,10 +508,24 @@ a:hover{color:var(--accent)}
 }
 
 .hero--fullscreen .pill{
-  color:rgba(255,255,255,.55);
-  font-size:11px;
-  letter-spacing:1.5px;
-  margin-bottom:20px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:16px;
+  color:rgba(255,255,255,.95);
+  font-size:17px;
+  font-weight:600;
+  letter-spacing:2.4px;
+  margin-bottom:28px;
+}
+.hero--fullscreen .pill::before,
+.hero--fullscreen .pill::after{
+  content:"";
+  display:block;
+  width:40px;
+  height:1px;
+  background:rgba(255,255,255,.55);
 }
 
 .hero--fullscreen h1{
@@ -1504,6 +1518,8 @@ a:hover{color:var(--accent)}
   .theme-toggle{width:32px;height:32px}
   .theme-toggle svg{width:16px;height:16px}
   .hero--fullscreen{min-height:calc(100svh - 52px)}
+  .hero--fullscreen .pill{font-size:13px;letter-spacing:1.8px;gap:10px;margin-bottom:20px}
+  .hero--fullscreen .pill::before,.hero--fullscreen .pill::after{width:24px}
   .hero--fullscreen h1{font-size:30px;font-weight:700;max-width:22ch;white-space:normal}
   .hero--fullscreen .lead{font-size:15px}
   .hero--fullscreen .hero__inner{padding:0 20px}

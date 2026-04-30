@@ -53,8 +53,8 @@ title: Plant Growth Dynamics
         <!-- Sigmoid curve (draws itself) -->
         <path d="M198,152 C210,150 220,146 230,135 C240,118 250,90 260,78 C270,70 280,68 288,66"
           stroke="rgba(120,220,120,.7)" stroke-width="2" fill="none" stroke-linecap="round"
-          stroke-dasharray="120" stroke-dashoffset="120">
-          <animate attributeName="stroke-dashoffset" values="120;0" dur="3s" begin="1s" fill="freeze"/>
+          stroke-dasharray="220" stroke-dashoffset="220">
+          <animate attributeName="stroke-dashoffset" values="220;0" dur="3s" begin="1s" fill="freeze"/>
         </path>
         <!-- Data points (appear with curve) -->
         <circle cx="215" cy="148" r="2" fill="rgba(200,160,255,.7)" opacity="0">

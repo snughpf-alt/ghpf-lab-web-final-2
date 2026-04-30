@@ -9,32 +9,24 @@ title: Contact
   desc="Interested in collaboration, joining our&nbsp;lab, or learning more about our&nbsp;research? We'd love to hear from&nbsp;you."
 %}
 
-<section class="join-page">
-  <div class="container container--content">
+<!-- ───── About (overview split) ───── -->
+<section class="rd-overview-split">
+  <div class="rd-overview-split__text">
+    <h2 class="rd-overview-split__heading">Decoding Plant-Environment Complexity</h2>
+    <p class="rd-overview-split__desc">Our lab studies advanced cultivation systems including greenhouse horticulture and plant factories (vertical farms). Our main research direction is to quantitatively understand the complex interactions among plants, environments, and cultivation systems through system dynamics and modeling &amp; simulation, and to design and optimize production systems based on these insights.</p>
+    <p class="rd-overview-split__desc">Agricultural biological systems are inherently complex. We first approach poorly understood phenomena through experiments, then iteratively develop our understanding into modeling and simulation. Through this <strong>Systems Approach</strong>, we conduct a wide range of research from fundamental studies on plant-environment responses to the advancement of production systems.</p>
+  </div>
+  <div class="rd-overview-split__visual" style="background:transparent;padding:0;margin-top:48px;border-radius:12px;overflow:hidden">
+    <img src="{{ '/assets/img/hero-greenhouse.jpg' | relative_url }}" alt="GHPF Lab greenhouse" style="width:100%;height:100%;object-fit:cover;display:block;border-radius:12px;min-height:360px">
+  </div>
+</section>
 
-    <!-- ───── About ───── -->
-    <div class="join-about">
-      <div class="join-eyebrow">
-        <span class="join-section__label">About the Lab</span>
-      </div>
-      <h2 class="join-info__title join-info__title--lg">Decoding Plant-Environment Complexity</h2>
-      <p class="join-about__text">
-        Our lab studies advanced cultivation systems including greenhouse horticulture and plant factories (vertical farms). Our main research direction is to quantitatively understand the complex interactions among plants, environments, and cultivation systems through system dynamics and modeling &amp; simulation, and to design and optimize production systems based on these insights.
-      </p>
-      <p class="join-about__text">
-        Agricultural biological systems are inherently complex. We first approach poorly understood phenomena through experiments, then iteratively develop our understanding into modeling and simulation. Through this <strong>Systems Approach</strong>, we conduct a wide range of research from fundamental studies on plant-environment responses to the advancement of production systems.
-      </p>
-    </div>
+<!-- ───── Openings (dark band with status cards) ───── -->
+<section class="rd-band rd-band--dark">
+  <div class="rd-band__inner">
+    <h2>Openings &amp; Opportunities</h2>
+    <p class="rd-band__subtitle">We welcome graduate students, visiting researchers, and collaborators interested in plant-environment systems and modeling.</p>
 
-    <!-- ───── Join Section Label ───── -->
-    <div class="join-cards-header">
-      <div class="join-eyebrow">
-        <span class="join-section__label">Join Our Lab</span>
-      </div>
-      <h2 class="join-info__title join-info__title--lg">Openings &amp; Opportunities</h2>
-    </div>
-
-    <!-- ───── Join Cards ───── -->
     <div class="join-cards join-cards--grid">
 
       <div class="join-card join-card--closed">
@@ -74,9 +66,16 @@ title: Contact
       </div>
 
     </div>
+  </div>
+</section>
 
-    <!-- ───── Contact Info + Map ───── -->
-    <div class="join-top join-top--bottom">
+<!-- ───── Visit Us (light band with map + info) ───── -->
+<section class="rd-band">
+  <div class="rd-band__inner">
+    <h2>Visit Us</h2>
+    <p class="rd-band__subtitle">College of Agriculture and Life Sciences, Seoul National University</p>
+
+    <div class="join-top join-top--bottom" style="margin:0">
       <div class="join-top__map">
         <iframe
           src="https://www.openstreetmap.org/export/embed.html?bbox=126.9436%2C37.4547%2C126.9536%2C37.4607&layer=mapnik&marker=37.4577%2C126.9486"
@@ -117,6 +116,5 @@ title: Contact
         </div>
       </div>
     </div>
-
   </div>
 </section>

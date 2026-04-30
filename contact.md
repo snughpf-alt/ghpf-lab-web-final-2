@@ -15,9 +15,7 @@ title: Contact
     <!-- ───── About ───── -->
     <div class="join-about">
       <div class="join-eyebrow">
-        <span class="join-eyebrow__line"></span>
         <span class="join-section__label">About the Lab</span>
-        <span class="join-eyebrow__line"></span>
       </div>
       <h2 class="join-info__title join-info__title--lg">Decoding Plant-Environment Complexity</h2>
       <p class="join-about__text">
@@ -31,9 +29,7 @@ title: Contact
     <!-- ───── Join Section Label ───── -->
     <div class="join-cards-header">
       <div class="join-eyebrow">
-        <span class="join-eyebrow__line"></span>
         <span class="join-section__label">Join Our Lab</span>
-        <span class="join-eyebrow__line"></span>
       </div>
       <h2 class="join-info__title join-info__title--lg">Openings &amp; Opportunities</h2>
     </div>
@@ -41,7 +37,8 @@ title: Contact
     <!-- ───── Join Cards ───── -->
     <div class="join-cards join-cards--grid">
 
-      <div class="join-card">
+      <div class="join-card join-card--closed">
+        <span class="join-card__status">Closed</span>
         <div class="join-card__icon">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44H2.5A1.5 1.5 0 0 1 1 18.5v-11A1.5 1.5 0 0 1 2.5 6h4.54A2.5 2.5 0 0 1 9.5 2Z"/><path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44h4.54a1.5 1.5 0 0 0 1.5-1.5v-11a1.5 1.5 0 0 0-1.5-1.5h-4.54A2.5 2.5 0 0 0 14.5 2Z"/></svg>
         </div>
@@ -49,7 +46,8 @@ title: Contact
         <p class="join-card__body"><strong class="join-card__highlight">No open positions</strong> at this time. Updates will be posted here.</p>
       </div>
 
-      <div class="join-card">
+      <div class="join-card join-card--open">
+        <span class="join-card__status">Open</span>
         <div class="join-card__icon">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.1 2.7 3 6 3s6-1.9 6-3v-5"/></svg>
         </div>
@@ -57,7 +55,8 @@ title: Contact
         <p class="join-card__body">We welcome MS and Ph.D. students. Please contact Prof. Ahn before applying through SNU graduate admissions.</p>
       </div>
 
-      <div class="join-card">
+      <div class="join-card join-card--closed">
+        <span class="join-card__status">Closed</span>
         <div class="join-card__icon">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg>
         </div>
@@ -65,7 +64,8 @@ title: Contact
         <p class="join-card__body"><strong class="join-card__highlight">No open positions</strong> at this time. Updates will be posted here.</p>
       </div>
 
-      <div class="join-card">
+      <div class="join-card join-card--open">
+        <span class="join-card__status">Open</span>
         <div class="join-card__icon">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
         </div>
@@ -87,19 +87,33 @@ title: Contact
         </iframe>
       </div>
 
-      <div class="join-top__info">
+      <div class="join-top__info join-top__info--card">
         <div class="join-info__block">
-          <span class="join-info__block-label">Email</span>
-          <a href="mailto:tiahn@snu.ac.kr" class="join-info__email-link">tiahn@snu.ac.kr</a>
+          <div class="join-info__icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          </div>
+          <div class="join-info__block-content">
+            <span class="join-info__block-label">Email</span>
+            <a href="mailto:tiahn@snu.ac.kr" class="join-info__email-link">tiahn@snu.ac.kr</a>
+          </div>
         </div>
 
         <div class="join-info__divider"></div>
 
         <div class="join-info__block">
-          <span class="join-info__block-label">Address</span>
-          <p class="join-info__address-text">
-            College of Agriculture and Life Sciences,<br>Bldg. 200, Room 3118<br>Seoul National University<br>1 Gwanak-ro, Gwanak-gu, Seoul 08826
-          </p>
+          <div class="join-info__icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div class="join-info__block-content">
+            <span class="join-info__block-label">Address</span>
+            <p class="join-info__address-text">
+              College of Agriculture and Life Sciences,<br>Bldg. 200, Room 3118<br>Seoul National University<br>1 Gwanak-ro, Gwanak-gu, Seoul 08826
+            </p>
+            <a class="join-info__directions" href="https://www.google.com/maps/search/?api=1&query=Seoul+National+University+Building+200" target="_blank" rel="noopener noreferrer">
+              Get directions
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg>
+            </a>
+          </div>
         </div>
       </div>
     </div>

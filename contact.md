@@ -9,32 +9,25 @@ title: Contact
   desc="Interested in collaboration, joining our&nbsp;lab, or learning more about our&nbsp;research? We'd love to hear from&nbsp;you."
 %}
 
-<section class="join-page">
-  <div class="container container--content">
+<div class="container container--content contact-page">
 
-    <!-- ───── About ───── -->
-    <div class="join-about">
-      <div class="join-eyebrow">
-        <span class="join-section__label">About the Lab</span>
-      </div>
-      <h2 class="join-info__title join-info__title--lg">Decoding Plant-Environment Complexity</h2>
-      <p class="join-about__text">
-        Our lab studies advanced cultivation systems including greenhouse horticulture and plant factories (vertical farms). Our main research direction is to quantitatively understand the complex interactions among plants, environments, and cultivation systems through system dynamics and modeling &amp; simulation, and to design and optimize production systems based on these insights.
-      </p>
-      <p class="join-about__text">
-        Agricultural biological systems are inherently complex. We first approach poorly understood phenomena through experiments, then iteratively develop our understanding into modeling and simulation. Through this <strong>Systems Approach</strong>, we conduct a wide range of research from fundamental studies on plant-environment responses to the advancement of production systems.
-      </p>
+  <!-- ───── About ───── -->
+  <section class="section">
+    <div class="section__head">
+      <h2>About the Lab</h2>
+    </div>
+    <div class="contact-prose">
+      <p>Our lab studies advanced cultivation systems including greenhouse horticulture and plant factories (vertical farms). Our main research direction is to quantitatively understand the complex interactions among plants, environments, and cultivation systems through system dynamics and modeling &amp; simulation, and to design and optimize production systems based on these insights.</p>
+      <p>Agricultural biological systems are inherently complex. We first approach poorly understood phenomena through experiments, then iteratively develop our understanding into modeling and simulation. Through this <strong>Systems Approach</strong>, we conduct a wide range of research from fundamental studies on plant-environment responses to the advancement of production systems.</p>
+    </div>
+  </section>
+
+  <!-- ───── Openings ───── -->
+  <section class="section">
+    <div class="section__head">
+      <h2>Openings &amp; Opportunities</h2>
     </div>
 
-    <!-- ───── Join Section Label ───── -->
-    <div class="join-cards-header">
-      <div class="join-eyebrow">
-        <span class="join-section__label">Join Our Lab</span>
-      </div>
-      <h2 class="join-info__title join-info__title--lg">Openings &amp; Opportunities</h2>
-    </div>
-
-    <!-- ───── Join Cards ───── -->
     <div class="join-cards join-cards--grid">
 
       <div class="join-card join-card--closed">
@@ -74,8 +67,14 @@ title: Contact
       </div>
 
     </div>
+  </section>
 
-    <!-- ───── Contact Info + Map ───── -->
+  <!-- ───── Visit Us ───── -->
+  <section class="section">
+    <div class="section__head">
+      <h2>Visit Us</h2>
+    </div>
+
     <div class="join-top join-top--bottom">
       <div class="join-top__map">
         <iframe
@@ -117,6 +116,6 @@ title: Contact
         </div>
       </div>
     </div>
+  </section>
 
-  </div>
-</section>
+</div>

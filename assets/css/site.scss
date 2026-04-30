@@ -2464,6 +2464,19 @@ a:hover{color:var(--accent)}
   font-weight:700;
 }
 
+/* --- Contact page (uses the navigating-page section pattern) --- */
+.contact-page .section{padding:48px 0}
+.contact-page .section + .section{padding-top:24px}
+.contact-prose p{
+  font-size:15.5px;
+  line-height:1.85;
+  color:var(--muted);
+  margin:0 0 18px;
+  max-width:780px;
+}
+.contact-prose p:last-child{margin-bottom:0}
+.contact-page .join-top--bottom{margin:0}
+
 /* --- Open / Closed status --- */
 .join-card__status{
   position:absolute;

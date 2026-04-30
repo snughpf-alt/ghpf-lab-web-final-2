@@ -122,7 +122,7 @@ title: Plant Growth Dynamics
       </div>
 
       <div class="rd-topics-grid__card">
-        <img src="{{ '/assets/img/research/photosynthesis-lab.png' | relative_url }}" alt="Photosynthesis measurement setup" style="transform:translateY(-12%)">
+        <img src="{{ '/assets/img/research/photosynthesis-lab.png' | relative_url }}" alt="Photosynthesis measurement setup" style="transform:translateY(-18%)">
         <div class="rd-topics-grid__caption">
           <h3>Photosynthetic<br>Physiology</h3>
           <div class="rd-topics-grid__keywords">
@@ -134,7 +134,7 @@ title: Plant Growth Dynamics
       </div>
 
       <div class="rd-topics-grid__card">
-        <img src="{{ '/assets/img/research/stomata.png' | relative_url }}" alt="Leaf stomata microscope view" style="object-fit:contain;background:rgba(0,0,0,.35)">
+        <img src="{{ '/assets/img/research/stomata.png' | relative_url }}" alt="Leaf stomata microscope view" style="object-fit:contain;background:#000">
         <div class="rd-topics-grid__caption">
           <h3>Leaf Temperature<br>&amp; Evapotranspiration</h3>
           <div class="rd-topics-grid__keywords">

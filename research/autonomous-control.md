@@ -58,15 +58,6 @@ title: LLM Application in Agriculture
   <div class="rd-overview-split__text">
     <h2 class="rd-overview-split__heading">Encoding expert knowledge into language models</h2>
     <p class="rd-overview-split__desc">Skilled growers and researchers accumulate domain knowledge over years of experience. We explore whether large language models can capture that expertise — and apply it to real agricultural tasks. Our LLM-based irrigation agent reads substrate sensors, decides when and how much to water, and refines its strategy through an experience-memory mechanism across successive growing cycles.</p>
-    <div class="research-detail__topics" style="margin-bottom:28px">
-      {% for area in site.data.research.tracks[1].areas %}
-        {% if area.id == 'autonomous-control' %}
-          {% for topic in area.topics %}
-          <span class="badge research-badge">{{ topic | escape }}</span>
-          {% endfor %}
-        {% endif %}
-      {% endfor %}
-    </div>
   </div>
   <div class="rd-overview-split__visual">
     <div class="rd-overview-split__circle"></div>
@@ -122,13 +113,27 @@ title: LLM Application in Agriculture
     <div class="rd-topics-grid rd-topics-grid--2col">
       <div class="rd-topics-grid__card">
         <div class="rd-topics-grid__placeholder-img"><span>Photo</span></div>
-        <h3>Autonomous Irrigation</h3>
+        <div class="rd-topics-grid__caption">
+          <h3>Autonomous Irrigation</h3>
+          <div class="rd-topics-grid__keywords">
+            <span class="badge">Function Calling</span>
+            <span class="badge">Experience Memory</span>
+            <span class="badge">Substrate Sensing</span>
+          </div>
+        </div>
         <p class="rd-topics-grid__desc">LLM agents read sensors, decide irrigation volume, and learn from outcomes over successive growing cycles</p>
       </div>
 
       <div class="rd-topics-grid__card">
         <div class="rd-topics-grid__placeholder-img"><span>Photo</span></div>
-        <h3>Knowledge Graph Construction</h3>
+        <div class="rd-topics-grid__caption">
+          <h3>Knowledge Graph Construction</h3>
+          <div class="rd-topics-grid__keywords">
+            <span class="badge">Literature Mining</span>
+            <span class="badge">Entity Extraction</span>
+            <span class="badge">Research Discovery</span>
+          </div>
+        </div>
         <p class="rd-topics-grid__desc">Automated mining of scientific literature to build large-scale knowledge networks for research discovery</p>
       </div>
     </div>

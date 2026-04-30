@@ -2173,11 +2173,11 @@ a:hover{color:var(--accent)}
   white-space:nowrap;
 }
 
-/* --- Eyebrow: label with decorative lines --- */
+/* --- Eyebrow: section label --- */
 .join-eyebrow{
   display:flex;
   align-items:center;
-  justify-content:center;
+  justify-content:flex-start;
   gap:16px;
   margin-bottom:18px;
 }
@@ -2199,9 +2199,9 @@ a:hover{color:var(--accent)}
 
 /* --- Top: About text (full width) --- */
 .join-about{
-  max-width:820px;
-  margin:0 auto 128px;
-  text-align:center;
+  max-width:860px;
+  margin:0 0 128px;
+  text-align:left;
 }
 .join-about .join-info__title{
   margin:0 0 28px;
@@ -2211,8 +2211,7 @@ a:hover{color:var(--accent)}
   line-height:1.9;
   color:var(--muted);
   margin:0 0 16px;
-  text-align:justify;
-  text-justify:inter-word;
+  text-align:left;
   hyphens:auto;
 }
 .join-about__text:last-child{
@@ -2360,7 +2359,7 @@ a:hover{color:var(--accent)}
 
 /* --- Cards header --- */
 .join-cards-header{
-  text-align:center;
+  text-align:left;
   margin-bottom:56px;
 }
 .join-cards-header .join-info__title{

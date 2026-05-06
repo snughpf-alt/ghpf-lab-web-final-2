@@ -59,48 +59,8 @@ title: LLM Application in Agriculture
     <h2 class="rd-overview-split__heading">Encoding expert knowledge into language models</h2>
     <p class="rd-overview-split__desc">Skilled farmers and researchers have accumulated specialized knowledge in their fields through years of experience. We are exploring whether large language models can acquire this expertise and apply it to real-world agricultural tasks. This encompasses a wide range of areas, from autonomous agricultural agents that make decisions in the fields to knowledge graphs that organize scientific literature to support research discoveries.</p>
   </div>
-  <div class="rd-overview-split__visual">
-    <div class="rd-overview-split__circle"></div>
-    <svg viewBox="0 0 400 280" fill="none" xmlns="http://www.w3.org/2000/svg" class="rd-overview-split__illustration">
-      <!-- Circular feedback loop diagram -->
-      <circle cx="200" cy="140" r="105" fill="none" stroke="rgba(255,255,255,.1)" stroke-width="1" stroke-dasharray="6 4"/>
-      <circle cx="200" cy="140" r="72" fill="none" stroke="rgba(255,255,255,.06)" stroke-width="1"/>
-      <!-- Center node: LLM Agent -->
-      <circle cx="200" cy="140" r="32" fill="rgba(255,255,255,.06)" stroke="rgba(255,255,255,.3)" stroke-width="1.5"/>
-      <text x="200" y="136" text-anchor="middle" fill="rgba(255,255,255,.8)" font-size="11" font-weight="700">LLM</text>
-      <text x="200" y="150" text-anchor="middle" fill="rgba(255,255,255,.45)" font-size="8">Agent</text>
-      <!-- Orbit nodes -->
-      <circle cx="200" cy="35" r="22" fill="rgba(100,220,160,.08)" stroke="rgba(100,220,160,.4)" stroke-width="1"/>
-      <text x="200" y="33" text-anchor="middle" fill="rgba(100,220,160,.8)" font-size="8" font-weight="600">Sense</text>
-      <text x="200" y="43" text-anchor="middle" fill="rgba(255,255,255,.4)" font-size="7">substrate</text>
-      <circle cx="305" cy="140" r="22" fill="rgba(130,170,255,.08)" stroke="rgba(130,170,255,.4)" stroke-width="1"/>
-      <text x="305" y="138" text-anchor="middle" fill="rgba(130,170,255,.8)" font-size="8" font-weight="600">Decide</text>
-      <text x="305" y="148" text-anchor="middle" fill="rgba(255,255,255,.4)" font-size="7">volume</text>
-      <circle cx="200" cy="245" r="22" fill="rgba(255,180,80,.08)" stroke="rgba(255,180,80,.4)" stroke-width="1"/>
-      <text x="200" y="243" text-anchor="middle" fill="rgba(255,180,80,.8)" font-size="8" font-weight="600">Irrigate</text>
-      <text x="200" y="253" text-anchor="middle" fill="rgba(255,255,255,.4)" font-size="7">pump</text>
-      <circle cx="95" cy="140" r="22" fill="rgba(200,140,255,.08)" stroke="rgba(200,140,255,.4)" stroke-width="1"/>
-      <text x="95" y="138" text-anchor="middle" fill="rgba(200,140,255,.8)" font-size="8" font-weight="600">Reflect</text>
-      <text x="95" y="148" text-anchor="middle" fill="rgba(255,255,255,.4)" font-size="7">memory</text>
-      <!-- Connecting arcs -->
-      <path d="M218 42 Q270 60 298 122" fill="none" stroke="rgba(255,255,255,.2)" stroke-width="1"/>
-      <circle cx="298" cy="120" r="2" fill="rgba(255,255,255,.4)"/>
-      <path d="M298 158 Q270 220 218 238" fill="none" stroke="rgba(255,255,255,.2)" stroke-width="1"/>
-      <circle cx="220" cy="237" r="2" fill="rgba(255,255,255,.4)"/>
-      <path d="M182 238 Q130 220 102 158" fill="none" stroke="rgba(255,255,255,.2)" stroke-width="1"/>
-      <circle cx="103" cy="160" r="2" fill="rgba(255,255,255,.4)"/>
-      <path d="M102 122 Q130 60 182 42" fill="none" stroke="rgba(255,255,255,.2)" stroke-width="1"/>
-      <circle cx="180" cy="43" r="2" fill="rgba(255,255,255,.4)"/>
-      <!-- Inner connecting lines -->
-      <line x1="200" y1="57" x2="200" y2="108" stroke="rgba(255,255,255,.12)" stroke-width="1" stroke-dasharray="3 3"/>
-      <line x1="283" y1="140" x2="232" y2="140" stroke="rgba(255,255,255,.12)" stroke-width="1" stroke-dasharray="3 3"/>
-      <line x1="200" y1="223" x2="200" y2="172" stroke="rgba(255,255,255,.12)" stroke-width="1" stroke-dasharray="3 3"/>
-      <line x1="117" y1="140" x2="168" y2="140" stroke="rgba(255,255,255,.12)" stroke-width="1" stroke-dasharray="3 3"/>
-      <!-- Animated pulse -->
-      <circle r="3" fill="rgba(100,220,160,.6)">
-        <animateMotion dur="6s" repeatCount="indefinite" path="M200,35 Q305,35 305,140 Q305,245 200,245 Q95,245 95,140 Q95,35 200,35"/>
-      </circle>
-    </svg>
+  <div class="rd-overview-split__visual" style="background:transparent;padding:24px">
+    <img src="{{ '/assets/img/research/llm-acquire-apply.png' | relative_url }}" alt="How LLMs acquire and apply agricultural expertise — flow from farmers and researchers through an LLM into autonomous agents and knowledge graphs, with a task performance radar chart comparing agriculture-tuned vs general LLM" class="rd-overview-split__illustration" style="border-radius:12px;max-width:100%;max-height:none">
   </div>
 </section>
 
@@ -125,7 +85,7 @@ title: LLM Application in Agriculture
       </div>
 
       <div class="rd-topics-grid__card">
-        <img src="{{ '/assets/img/research/knowledge.jpg' | relative_url }}" alt="Advanced Knowledge Graph System interface showing graph visualization and analysis panels">
+        <img src="{{ '/assets/img/research/knowledge-graph-system.png' | relative_url }}" alt="Advanced Knowledge Graph System interface showing graph visualization and analysis panels">
         <div class="rd-topics-grid__caption">
           <h3>Knowledge Graph Construction</h3>
           <div class="rd-topics-grid__keywords">

@@ -3391,6 +3391,23 @@ a:hover{color:var(--accent)}
   }
 }
 
+/* Light-background card variant — white card with dark text */
+.rd-topics-grid--light .rd-topics-grid__card{
+  background:#fff;
+  border:1px solid rgba(15,23,42,.08);
+}
+.rd-topics-grid--light .rd-topics-grid__card .rd-topics-grid__caption{
+  background:linear-gradient(transparent 0%, rgba(255,255,255,.85) 35%, #fff 70%);
+}
+.rd-topics-grid--light .rd-topics-grid__card h3{
+  color:var(--text);
+}
+.rd-topics-grid--light .rd-topics-grid__keywords .badge{
+  background:rgba(15,23,42,.05);
+  color:var(--text);
+  border:1px solid rgba(15,23,42,.10);
+}
+
 .rd-topics-grid__placeholder-img{
   width:100%;
   height:100%;

@@ -57,7 +57,7 @@ title: LLM Application in Agriculture
 <section class="rd-overview-split">
   <div class="rd-overview-split__text">
     <h2 class="rd-overview-split__heading">Encoding expert knowledge into language models</h2>
-    <p class="rd-overview-split__desc">Skilled growers and researchers accumulate domain knowledge over years of experience. We explore whether large language models can capture that expertise — and apply it to real agricultural tasks. Our LLM-based irrigation agent reads substrate sensors, decides when and how much to water, and refines its strategy through an experience-memory mechanism across successive growing cycles.</p>
+    <p class="rd-overview-split__desc">Skilled growers and researchers accumulate domain knowledge over years of experience. We explore whether large language models can capture that expertise and apply it to real agricultural tasks — from autonomous cultivation agents that make decisions in the field, to knowledge graphs that organize the scientific literature for research discovery.</p>
   </div>
   <div class="rd-overview-split__visual">
     <div class="rd-overview-split__circle"></div>

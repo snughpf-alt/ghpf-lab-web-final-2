@@ -57,7 +57,7 @@ title: LLM Application in Agriculture
 <section class="rd-overview-split">
   <div class="rd-overview-split__text">
     <h2 class="rd-overview-split__heading">Encoding expert knowledge into language models</h2>
-    <p class="rd-overview-split__desc">Skilled growers and researchers accumulate domain knowledge over years of experience. We explore whether large language models can capture that expertise and apply it to real agricultural tasks — from autonomous cultivation agents that make decisions in the field, to knowledge graphs that organize the scientific literature for research discovery.</p>
+    <p class="rd-overview-split__desc">Skilled farmers and researchers have accumulated specialized knowledge in their fields through years of experience. We are exploring whether large language models can acquire this expertise and apply it to real-world agricultural tasks. This encompasses a wide range of areas, from autonomous agricultural agents that make decisions in the fields to knowledge graphs that organize scientific literature to support research discoveries.</p>
   </div>
   <div class="rd-overview-split__visual">
     <div class="rd-overview-split__circle"></div>

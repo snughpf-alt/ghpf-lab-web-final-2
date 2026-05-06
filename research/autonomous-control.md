@@ -11,7 +11,7 @@ title: LLM Application in Agriculture
       <p class="page-hero__desc">Encoding expert knowledge into language models for agricultural decision-making</p>
     </div>
     <div class="page-hero__visual">
-      <svg viewBox="0 0 400 280" fill="none" xmlns="http://www.w3.org/2000/svg" class="hero__diagram">
+      <svg viewBox="0 0 400 308" fill="none" xmlns="http://www.w3.org/2000/svg" class="hero__diagram">
         <!-- Terminal frame -->
         <rect x="20" y="16" width="360" height="248" rx="12" fill="rgba(255,255,255,.04)" stroke="rgba(255,255,255,.18)" stroke-width="1.2"/>
         <rect x="20" y="16" width="360" height="28" rx="12" fill="rgba(255,255,255,.06)"/>
@@ -48,6 +48,9 @@ title: LLM Application in Agriculture
         <rect x="20" y="248" width="360" height="16" rx="0" fill="rgba(255,255,255,.05)"/>
         <text x="36" y="259" fill="rgba(130,170,255,.5)" font-size="7" font-family="monospace">&#x25CF; REASONING</text>
         <text x="340" y="259" fill="rgba(255,255,255,.3)" font-size="7" font-family="monospace">cycle 37</text>
+
+        <!-- Label -->
+        <text x="200" y="296" text-anchor="middle" fill="rgba(255,255,255,.5)" font-size="12" font-family="monospace" font-weight="600">Knowledge → Reasoning → Action</text>
       </svg>
     </div>
   </div>
@@ -70,7 +73,7 @@ title: LLM Application in Agriculture
     <h2>Research Topics</h2>
     <p class="rd-band__subtitle">Two current research directions applying LLMs to agricultural knowledge and production systems.</p>
 
-    <div class="rd-topics-grid rd-topics-grid--2col">
+    <div class="rd-topics-grid rd-topics-grid--2col rd-topics-grid--light">
       <div class="rd-topics-grid__card">
         <img src="{{ '/assets/img/research/autonomous-irrigation.jpg' | relative_url }}" alt="Autonomous irrigation diagram comparing Agent AI and Accumulated Solar Radiation strategies" style="object-fit:contain;background:#fff">
         <div class="rd-topics-grid__caption">

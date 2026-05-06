@@ -73,7 +73,7 @@ title: Energy-Food Nexus & System Optimization
       {% endfor %}
     </div>
   </div>
-  <div class="rd-overview-split__visual" style="background:transparent;padding:16px">
+  <div class="rd-overview-split__visual" style="background:transparent;padding:24px">
     <img src="{{ '/assets/img/research/energy-nexus.png' | relative_url }}" alt="Energy-Food Nexus system diagram" style="border-radius:12px;width:100%;display:block;" loading="lazy">
   </div>
 </section>

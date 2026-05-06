@@ -75,7 +75,7 @@ title: LLM Application in Agriculture
 
     <div class="rd-topics-grid rd-topics-grid--2col rd-topics-grid--light">
       <div class="rd-topics-grid__card">
-        <img src="{{ '/assets/img/research/autonomous-irrigation.jpg' | relative_url }}" alt="Autonomous irrigation diagram comparing Agent AI and Accumulated Solar Radiation strategies" style="object-fit:contain;background:#fff">
+        <img src="{{ '/assets/img/research/autonomous-irrigation.jpg' | relative_url }}" alt="Autonomous irrigation diagram comparing Agent AI and Accumulated Solar Radiation strategies" style="object-fit:contain;object-position:50% 30%;background:#fff">
         <div class="rd-topics-grid__caption">
           <h3>Autonomous Irrigation</h3>
           <div class="rd-topics-grid__keywords">
@@ -88,7 +88,7 @@ title: LLM Application in Agriculture
       </div>
 
       <div class="rd-topics-grid__card">
-        <img src="{{ '/assets/img/research/knowledge-graph-system.png' | relative_url }}" alt="Advanced Knowledge Graph System interface showing graph visualization and analysis panels" style="object-fit:contain;background:#fff">
+        <img src="{{ '/assets/img/research/knowledge-graph-system.png' | relative_url }}" alt="Advanced Knowledge Graph System interface showing graph visualization and analysis panels" style="object-fit:contain;object-position:50% 30%;background:#fff">
         <div class="rd-topics-grid__caption">
           <h3>Knowledge Graph Construction</h3>
           <div class="rd-topics-grid__keywords">

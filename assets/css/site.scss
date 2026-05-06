@@ -3092,7 +3092,7 @@ a:hover{color:var(--accent)}
   margin-left:auto;
   margin-right:auto;
   overflow:hidden;
-  align-items:stretch;
+  align-items:center;
 }
 
 .rd-overview-split__text{
@@ -3149,6 +3149,14 @@ a:hover{color:var(--accent)}
   margin-top:48px;
   padding:48px 40px;
   border-radius:12px;
+  aspect-ratio:16/9;
+}
+.rd-overview-split__visual img,
+.rd-overview-split__visual video{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  display:block;
 }
 
 [data-theme="dark"] .rd-overview-split__text{

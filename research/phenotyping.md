@@ -71,12 +71,12 @@ title: 3D Plant Modeling & Light-Environment Simulation
 </section>
 
 <!-- ───── Overview (split) ───── -->
-<section class="rd-overview-split" style="grid-template-columns:3fr 5fr">
+<section class="rd-overview-split">
   <div class="rd-overview-split__text">
     <h2 class="rd-overview-split__heading">Computing light at the canopy scale</h2>
     <p class="rd-overview-split__desc">Going beyond simple observation, we use 3D scanning and ray-tracing simulation to compute complex light movement and interactions at the canopy level. By reconstructing crops at different growth stages, we quantify canopy light interception and estimate photosynthesis using the modified FvCB model — ultimately determining supplemental lighting requirements and evaluating the combined effects of stem density and lighting strategies on growth, yield, and energy consumption.</p>
   </div>
-  <div class="rd-overview-split__visual" style="background:transparent;padding:16px">
+  <div class="rd-overview-split__visual" style="background:transparent;padding:24px">
     <video autoplay loop muted playsinline style="border-radius:12px;width:100%;display:block;">
       <source src="{{ '/assets/img/research/surface-curvature.mp4' | relative_url }}" type="video/mp4">
     </video>

@@ -3084,7 +3084,7 @@ a:hover{color:var(--accent)}
 /* ── Overview Split: Google Research–style (paper + blue circle) ── */
 .rd-overview-split{
   display:grid;
-  grid-template-columns:5fr 4fr;
+  grid-template-columns:1fr 1fr;
   min-height:auto;
   margin-top:64px;
   margin-bottom:40px;

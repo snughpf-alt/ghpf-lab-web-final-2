@@ -2036,6 +2036,12 @@ a:hover{color:var(--accent)}
   aspect-ratio:16/10;
   border-radius:16px;
 }
+.rblock__mosaic--tall{
+  max-width:380px;
+}
+.rblock__mosaic--tall img{
+  aspect-ratio:4/5;
+}
 
 /* --- Responsive --- */
 @media (max-width:900px){

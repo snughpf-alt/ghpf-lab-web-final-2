@@ -51,8 +51,8 @@ title: Research
         <img src="{{ '/assets/img/research/growth-chambers.jpg' | relative_url }}" alt="Three growth chambers with different LED spectra (white, yellow, magenta) growing cucumber plants" loading="lazy">
       </div>
       {% else %}
-      <div class="rblock__mosaic rblock__mosaic--2">
-        <img src="{{ '/assets/img/hero-plant-factory.jpg' | relative_url }}" alt="Plant factory interior with multi-spectral LED lighting" loading="lazy">
+      <div class="rblock__mosaic rblock__mosaic--2 rblock__mosaic--tall">
+        <img src="{{ '/assets/img/hero-plant-led.jpg' | relative_url }}" alt="Plant under multi-spectral LED lighting in a growth chamber" loading="lazy">
       </div>
       {% endif %}
     </div>

@@ -47,7 +47,7 @@ title: Research
     <!-- Visual side -->
     <div class="rblock__visual">
       {% if forloop.index == 1 %}
-      <div class="rblock__mosaic rblock__mosaic--2">
+      <div class="rblock__mosaic rblock__mosaic--2 rblock__mosaic--tall">
         <img src="{{ '/assets/img/research/growth-chambers.jpg' | relative_url }}" alt="Three growth chambers with different LED spectra (white, yellow, magenta) growing cucumber plants" loading="lazy">
       </div>
       {% else %}

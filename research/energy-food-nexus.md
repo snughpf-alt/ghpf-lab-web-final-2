@@ -63,15 +63,6 @@ title: Energy-Food Nexus & System Optimization
   <div class="rd-overview-split__text">
     <h2 class="rd-overview-split__heading">Maximizing energy-to-biomass conversion</h2>
     <p class="rd-overview-split__desc">In high-density production systems such as vertical farms and smart greenhouses, optimizing the conversion of input electrical and thermal energy into crop biomass is critical for sustainable agriculture. Our research focuses on developing "active energy-agriculture systems" by seamlessly integrating plant physiological dynamics with comprehensive facility energy models.</p>
-    <div class="research-detail__topics" style="margin-bottom:28px">
-      {% for area in site.data.research.tracks[1].areas %}
-        {% if area.id == 'energy-food-nexus' %}
-          {% for topic in area.topics %}
-          <span class="badge research-badge">{{ topic | escape }}</span>
-          {% endfor %}
-        {% endif %}
-      {% endfor %}
-    </div>
   </div>
   <div class="rd-overview-split__visual" style="background:transparent;padding:24px">
     <img src="{{ '/assets/img/research/energy-nexus-overview.png' | relative_url }}" alt="Greenhouse energy-food nexus diagram showing radiative, convective and latent flows" style="border-radius:12px;width:100%;display:block;" loading="lazy">

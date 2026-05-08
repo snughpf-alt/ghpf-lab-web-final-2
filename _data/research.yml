@@ -32,6 +32,20 @@ tracks:
     description: 'We convert biological complexity — such as plant resource allocation mechanisms — into high-efficiency numerical models through dimensionality reduction, building the backbone of accurate growth simulators. This methodological approach bridges the gap between raw biological data and computationally tractable growth predictions.
 
       '
+  - id: electric-fields
+    title: Electric Field Biology
+    tagline: An open frontier in plant–environment research
+    topics:
+    - Electric Field
+    - Bioelectricity
+    - Energy Economy
+    - Electron Flow
+    - Plant Physiology
+    color: '#0c8a96'
+    icon: electric
+    description: 'Plants have evolved under physical fields — light, temperature, water, gravity — and we turn our attention to one long overlooked: the electric field. We probe the energy economy of the plant — how chemical energy and electron flow are built, balanced, and potentially reshaped under an external physical field.
+
+      '
   description: 'We decode nature''s complexity through engineering perspectives and data, building foundational models for simulation. Rather than focusing on mathematical models or AI techniques per se, we concentrate on uncovering the physiological principles of plants and their relationships with the environment hidden within data.
 
     '

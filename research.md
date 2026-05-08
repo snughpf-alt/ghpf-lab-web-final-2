@@ -39,6 +39,8 @@ title: Research
               <rect x="6" y="6" width="36" height="36" rx="4"/><path d="M14 18h20M14 24h16M14 30h12"/>
               {% elsif area.icon == 'energy' %}
               <path d="M26 4L12 28h12l-2 16 14-24H24z"/>
+              {% elsif area.icon == 'electric' %}
+              <circle cx="24" cy="24" r="5"/><ellipse cx="24" cy="24" rx="14" ry="8" stroke-dasharray="3 3"/><ellipse cx="24" cy="24" rx="22" ry="13" stroke-dasharray="3 3"/>
               {% endif %}
             </svg>
           </div>

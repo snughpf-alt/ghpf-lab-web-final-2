@@ -77,7 +77,7 @@ title: Energy-Food Nexus & System Optimization
 
     <div class="rd-topics-grid rd-topics-grid--2col">
       <div class="rd-topics-grid__card">
-        <img src="{{ '/assets/img/research/leaf-temp-model.png' | relative_url }}" alt="Leaf energy balance diagram with environmental and physiological factors" style="object-fit:contain;background:#fff">
+        <img src="{{ '/assets/img/research/leaf-energy-overview.png' | relative_url }}" alt="Leaf energy balance diagram alongside a time series of leaf and air temperature with sensible and latent heat fluxes" style="object-fit:contain;background:#fff">
         <h3>Leaf Temperature Model</h3>
         <p class="rd-topics-grid__desc">Energy balance models that simulate heat exchange between crop and microclimate to diagnose plant stress and predict photosynthesis</p>
       </div>

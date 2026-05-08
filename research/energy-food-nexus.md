@@ -74,7 +74,7 @@ title: Energy-Food Nexus & System Optimization
     </div>
   </div>
   <div class="rd-overview-split__visual" style="background:transparent;padding:24px">
-    <img src="{{ '/assets/img/research/energy-nexus.png' | relative_url }}" alt="Energy-Food Nexus system diagram" style="border-radius:12px;width:100%;display:block;" loading="lazy">
+    <img src="{{ '/assets/img/research/energy-nexus-overview.png' | relative_url }}" alt="Greenhouse energy-food nexus diagram showing radiative, convective and latent flows" style="border-radius:12px;width:100%;display:block;" loading="lazy">
   </div>
 </section>
 
@@ -86,13 +86,13 @@ title: Energy-Food Nexus & System Optimization
 
     <div class="rd-topics-grid rd-topics-grid--2col">
       <div class="rd-topics-grid__card">
-        <div class="rd-topics-grid__placeholder-img"><span>Photo</span></div>
+        <img src="{{ '/assets/img/research/leaf-temp-model.png' | relative_url }}" alt="Leaf energy balance diagram with environmental and physiological factors" style="object-fit:contain;background:#fff">
         <h3>Leaf Temperature Model</h3>
         <p class="rd-topics-grid__desc">Energy balance models that simulate heat exchange between crop and microclimate to diagnose plant stress and predict photosynthesis</p>
       </div>
 
       <div class="rd-topics-grid__card">
-        <div class="rd-topics-grid__placeholder-img"><span>Photo</span></div>
+        <img src="{{ '/assets/img/research/facility-energy.png' | relative_url }}" alt="Indoor air temperature time series and PPFD heatmap by canopy position" style="object-fit:contain;background:#fff">
         <h3>Facility Energy Model</h3>
         <p class="rd-topics-grid__desc">Integrated energy models that track where and how much energy is consumed, enabling optimal operation with minimal energy input</p>
       </div>

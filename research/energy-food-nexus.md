@@ -78,13 +78,27 @@ title: Energy-Food Nexus & System Optimization
     <div class="rd-topics-grid rd-topics-grid--2col">
       <div class="rd-topics-grid__card">
         <img src="{{ '/assets/img/research/leaf-energy-overview.png' | relative_url }}" alt="Leaf energy balance diagram alongside a time series of leaf and air temperature with sensible and latent heat fluxes" style="object-fit:contain;background:#fff">
-        <h3>Leaf Temperature Model</h3>
+        <div class="rd-topics-grid__caption">
+          <h3>Leaf Temperature Model</h3>
+          <div class="rd-topics-grid__keywords">
+            <span class="badge">Energy Balance</span>
+            <span class="badge">Heat Flux</span>
+            <span class="badge">Microclimate</span>
+          </div>
+        </div>
         <p class="rd-topics-grid__desc">Energy balance models that simulate heat exchange between crop and microclimate to diagnose plant stress and predict photosynthesis</p>
       </div>
 
       <div class="rd-topics-grid__card">
         <img src="{{ '/assets/img/research/facility-energy.png' | relative_url }}" alt="Indoor air temperature time series and PPFD heatmap by canopy position" style="object-fit:contain;background:#fff">
-        <h3>Facility Energy Model</h3>
+        <div class="rd-topics-grid__caption">
+          <h3>Facility Energy Model</h3>
+          <div class="rd-topics-grid__keywords">
+            <span class="badge">Energy Tracking</span>
+            <span class="badge">System Optimization</span>
+            <span class="badge">Vertical Farming</span>
+          </div>
+        </div>
         <p class="rd-topics-grid__desc">Integrated energy models that track where and how much energy is consumed, enabling optimal operation with minimal energy input</p>
       </div>
     </div>

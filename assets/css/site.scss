@@ -1959,6 +1959,19 @@ a:hover{color:var(--accent)}
   justify-content:center;
 }
 
+.rblock__area-number{
+  flex-shrink:0;
+  width:44px;
+  font-size:26px;
+  font-weight:700;
+  color:var(--area-color, var(--block-color));
+  text-align:center;
+  letter-spacing:-.5px;
+  font-variant-numeric:tabular-nums;
+  line-height:1;
+  opacity:.85;
+}
+
 .rblock__area-info{
   flex:1;
   min-width:0;
@@ -2047,6 +2060,7 @@ a:hover{color:var(--accent)}
   .rblock__desc{font-size:14px;margin-bottom:28px}
   .rblock__area-link{padding:14px 16px;gap:12px}
   .rblock__area-icon{width:38px;height:38px}
+  .rblock__area-number{width:38px;font-size:22px}
   .rblock__area-name{font-size:14px}
   .rblock__area-tagline{font-size:12px}
   .rblock__mosaic{border-radius:16px}

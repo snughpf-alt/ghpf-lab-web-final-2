@@ -3,7 +3,6 @@
 :root{
   /* ===== Typography ===== */
   --font-sans:'Pretendard','Pretendard Variable',-apple-system,BlinkMacSystemFont,system-ui,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
-  --font-display:'Fraunces','Noto Serif KR',Georgia,'Times New Roman',serif;
 
   --bg:#ffffff;
   --bg2:#f1f5f9;
@@ -69,14 +68,6 @@ body{
 }
 
 main{flex:1}
-
-/* =========================
-   DISPLAY HEADINGS (serif)
-   ========================= */
-h1,h2{
-  font-family:var(--font-display);
-  font-optical-sizing:auto;
-}
 
 /* =========================
    LINKS

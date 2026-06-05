@@ -753,6 +753,51 @@ a:hover{color:var(--accent)}
   .highlight-card__body{padding:26px 24px 24px}
 }
 
+/* --- Home research bento (1 feature + 2x2) --- */
+.research-bento{
+  display:grid;
+  grid-template-columns:1.4fr 1fr 1fr;
+  gap:18px;
+}
+.research-bento .highlight-card{
+  flex-direction:column;
+  min-height:0;
+}
+.research-bento .highlight-card__media{
+  flex:0 0 auto;
+  width:100%;
+  aspect-ratio:16/10;
+}
+.research-bento .highlight-card__body{
+  flex:1;
+  padding:24px 26px 24px;
+}
+.research-bento .highlight-card--feature{
+  grid-column:1;
+  grid-row:1 / span 2;
+  order:-1;
+}
+.research-bento .highlight-card--feature .highlight-card__media{
+  flex:1 1 auto;
+  aspect-ratio:auto;
+  min-height:260px;
+}
+.research-bento .highlight-card--feature .highlight-card__body{
+  flex:0 0 auto;
+}
+.research-bento .highlight-card--feature h3{
+  font-size:24px;
+}
+
+@media (max-width:980px){
+  .research-bento{grid-template-columns:1fr 1fr;}
+  .research-bento .highlight-card--feature{grid-column:1 / -1;grid-row:auto;}
+  .research-bento .highlight-card--feature .highlight-card__media{min-height:200px;}
+}
+@media (max-width:560px){
+  .research-bento{grid-template-columns:1fr;}
+}
+
 /* =========================
    BADGE
    ========================= */

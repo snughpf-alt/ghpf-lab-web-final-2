@@ -1,9 +1,6 @@
 ---
 ---
-{% assign m = site.time | date: "%m" | plus: 0 %}
 :root{
-  /* ===== Seasonal Theme ===== */
-  /* Spring 3-5: coral pink / Summer 6-8: royal blue / Fall 9-11: gold / Winter 12-2: sky cyan */
   --bg:#ffffff;
   --bg2:#f1f5f9;
 
@@ -14,19 +11,8 @@
   --panel:#ffffff;
   --panel2:#e2e8f0;
 
-{% if m >= 3 and m <= 5 %}
-  --accent:#fb7185;      /* spring: coral pink */
-  --accent2:#f9a8d4;     /* spring: soft pink */
-{% elsif m >= 6 and m <= 8 %}
-  --accent:#2563eb;      /* summer: royal blue */
-  --accent2:#60a5fa;     /* summer: light blue */
-{% elsif m >= 9 and m <= 11 %}
-  --accent:#d97706;      /* fall: gold */
-  --accent2:#fbbf24;     /* fall: amber */
-{% else %}
-  --accent:#0ea5e9;      /* winter: sky cyan */
-  --accent2:#67e8f9;     /* winter: light cyan */
-{% endif %}
+  --accent:#fb7185;      /* coral pink */
+  --accent2:#f9a8d4;     /* soft pink */
   --accent3:#0f172a;
 
   --navbg:rgba(255,255,255,.95);

@@ -81,7 +81,7 @@ title: Home
       </a>
 
       <!-- Track 2 · Engineering Systems (2) -->
-      <a class="card highlight-card highlight-card--media highlight-card--wide" href="{{ '/research/autonomous-control' | relative_url }}">
+      <a class="card highlight-card highlight-card--media" href="{{ '/research/autonomous-control' | relative_url }}">
         <div class="highlight-card__media">
           <img src="{{ '/assets/img/research/strawberry-field-sensing.jpg' | relative_url }}" alt="In-field strawberry sensing with cameras and a tablet showing live data" loading="lazy">
         </div>
@@ -93,7 +93,7 @@ title: Home
         </div>
       </a>
 
-      <a class="card highlight-card highlight-card--media highlight-card--wide" href="{{ '/research/energy-food-nexus' | relative_url }}">
+      <a class="card highlight-card highlight-card--media" href="{{ '/research/energy-food-nexus' | relative_url }}">
         <div class="highlight-card__media">
           <img src="{{ '/assets/img/research/plant-factory-chambers.jpg' | relative_url }}" alt="Plant factory cultivation chambers with WALZ photosynthesis instrument" loading="lazy">
         </div>

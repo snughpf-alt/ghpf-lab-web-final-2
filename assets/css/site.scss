@@ -753,19 +753,17 @@ a:hover{color:var(--accent)}
   .highlight-card__body{padding:26px 24px 24px}
 }
 
-/* --- Home research grid (Track 1: 3-up / Track 2: 2-up) --- */
+/* --- Home research grid (equal cards: 3-up, last row centered) --- */
 .research-grid{
-  display:grid;
-  grid-template-columns:repeat(6,minmax(0,1fr));
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
   gap:18px;
 }
 .research-grid .highlight-card{
+  flex:0 1 calc((100% - 36px) / 3);
   flex-direction:column;
   min-height:0;
-  grid-column:span 2;
-}
-.research-grid .highlight-card--wide{
-  grid-column:span 3;
 }
 .research-grid .highlight-card__media{
   flex:0 0 auto;
@@ -778,14 +776,10 @@ a:hover{color:var(--accent)}
 }
 
 @media (max-width:980px){
-  .research-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
-  .research-grid .highlight-card,
-  .research-grid .highlight-card--wide{grid-column:span 1;}
+  .research-grid .highlight-card{flex-basis:calc((100% - 18px) / 2);}
 }
 @media (max-width:560px){
-  .research-grid{grid-template-columns:1fr;}
-  .research-grid .highlight-card,
-  .research-grid .highlight-card--wide{grid-column:span 1;}
+  .research-grid .highlight-card{flex-basis:100%;}
 }
 
 /* =========================

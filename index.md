@@ -20,7 +20,8 @@ title: Home
       <h2>Research Highlights</h2>
     </div>
 
-    <div class="grid grid--2">
+    <div class="research-grid">
+      <!-- Track 1 · Decoding Complexity (3) -->
       <a class="card highlight-card highlight-card--media" href="{{ '/research/growth-dynamics' | relative_url }}">
         <div class="highlight-card__media">
           <img src="{{ '/assets/img/research/seedling-tray.jpg' | relative_url }}" alt="Densely packed seedlings in a nursery tray" loading="lazy">
@@ -45,31 +46,7 @@ title: Home
         </div>
       </a>
 
-      <a class="card highlight-card highlight-card--media" href="{{ '/research/autonomous-control' | relative_url }}">
-        <div class="highlight-card__media">
-          <img src="{{ '/assets/img/research/strawberry-field-sensing.jpg' | relative_url }}" alt="In-field strawberry sensing with cameras and a tablet showing live data" loading="lazy">
-        </div>
-        <div class="highlight-card__body">
-          <span class="highlight-card__label">Track 2 · Engineering Systems</span>
-          <h3>LLM in Agriculture</h3>
-          <p class="muted">Encoding expert knowledge into language models for agricultural decision-making.</p>
-          <span class="highlight-card__link">Learn more →</span>
-        </div>
-      </a>
-
-      <a class="card highlight-card highlight-card--media" href="{{ '/research/energy-food-nexus' | relative_url }}">
-        <div class="highlight-card__media">
-          <img src="{{ '/assets/img/research/plant-factory-chambers.jpg' | relative_url }}" alt="Plant factory cultivation chambers with WALZ photosynthesis instrument" loading="lazy">
-        </div>
-        <div class="highlight-card__body">
-          <span class="highlight-card__label">Track 2 · Engineering Systems</span>
-          <h3>Energy-Food Nexus</h3>
-          <p class="muted">Maximizing the conversion of energy to biomass.</p>
-          <span class="highlight-card__link">Learn more →</span>
-        </div>
-      </a>
-
-      <a class="card highlight-card highlight-card--media highlight-card--feature" href="{{ '/research/electric-fields' | relative_url }}" style="grid-column:1 / -1">
+      <a class="card highlight-card highlight-card--media" href="{{ '/research/electric-fields' | relative_url }}">
         <div class="highlight-card__media">
           <svg viewBox="0 0 320 220" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" style="width:100%;height:100%;display:block">
             <defs>
@@ -96,9 +73,34 @@ title: Home
           </svg>
         </div>
         <div class="highlight-card__body">
-          <span class="highlight-card__label">Track 1 · Decoding Complexity · New Frontier</span>
+          <span class="highlight-card__label">Track 1 · Decoding Complexity</span>
           <h3>Electric Field Biology</h3>
           <p class="muted">An open frontier in plant–environment research — probing how electric fields and the plant's energy economy shape life.</p>
+          <span class="highlight-card__link">Learn more →</span>
+        </div>
+      </a>
+
+      <!-- Track 2 · Engineering Systems (2) -->
+      <a class="card highlight-card highlight-card--media highlight-card--wide" href="{{ '/research/autonomous-control' | relative_url }}">
+        <div class="highlight-card__media">
+          <img src="{{ '/assets/img/research/strawberry-field-sensing.jpg' | relative_url }}" alt="In-field strawberry sensing with cameras and a tablet showing live data" loading="lazy">
+        </div>
+        <div class="highlight-card__body">
+          <span class="highlight-card__label">Track 2 · Engineering Systems</span>
+          <h3>LLM in Agriculture</h3>
+          <p class="muted">Encoding expert knowledge into language models for agricultural decision-making.</p>
+          <span class="highlight-card__link">Learn more →</span>
+        </div>
+      </a>
+
+      <a class="card highlight-card highlight-card--media highlight-card--wide" href="{{ '/research/energy-food-nexus' | relative_url }}">
+        <div class="highlight-card__media">
+          <img src="{{ '/assets/img/research/plant-factory-chambers.jpg' | relative_url }}" alt="Plant factory cultivation chambers with WALZ photosynthesis instrument" loading="lazy">
+        </div>
+        <div class="highlight-card__body">
+          <span class="highlight-card__label">Track 2 · Engineering Systems</span>
+          <h3>Energy-Food Nexus</h3>
+          <p class="muted">Maximizing the conversion of energy to biomass.</p>
           <span class="highlight-card__link">Learn more →</span>
         </div>
       </a>

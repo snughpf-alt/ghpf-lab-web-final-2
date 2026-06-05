@@ -295,8 +295,7 @@ a:hover{color:var(--accent)}
 .nav__dropdown-menu{
   position:absolute;
   top:100%;
-  left:50%;
-  transform:translateX(-50%);
+  left:-18px;
   padding-top:8px;
   min-width:180px;
   background:var(--panel);
@@ -319,7 +318,6 @@ a:hover{color:var(--accent)}
 .nav__dropdown:hover .nav__dropdown-menu{
   opacity:1;
   visibility:visible;
-  transform:translateX(-50%) translateY(0);
 }
 
 .nav__dropdown-menu a{

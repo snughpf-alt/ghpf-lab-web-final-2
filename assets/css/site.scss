@@ -758,7 +758,7 @@ a:hover{color:var(--accent)}
   display:grid;
   grid-template-columns:repeat(6,minmax(0,1fr));
   grid-auto-rows:1fr;
-  gap:18px;
+  gap:30px;
 }
 .research-grid .highlight-card{
   grid-column:span 2;

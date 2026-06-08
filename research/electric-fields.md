@@ -56,45 +56,7 @@ title: Electric Field Biology
     <p class="rd-overview-split__desc">Exposure to electric fields has been reported to enhance plant growth and development, yet the mechanistic basis of these responses remains a black box — an open frontier in plant–environment research that we set out to explore.</p>
   </div>
   <div class="rd-overview-split__visual" style="background:transparent;padding:24px">
-    <svg viewBox="0 0 400 280" fill="none" xmlns="http://www.w3.org/2000/svg" class="rd-overview-split__illustration" style="width:100%;height:100%">
-      <!-- Soft radial backdrop -->
-      <defs>
-        <radialGradient id="ef-bg" cx="50%" cy="50%" r="60%">
-          <stop offset="0%" stop-color="rgba(140,210,235,.18)"/>
-          <stop offset="100%" stop-color="rgba(140,210,235,0)"/>
-        </radialGradient>
-      </defs>
-      <rect x="0" y="0" width="400" height="280" fill="url(#ef-bg)"/>
-
-      <!-- Two electrode plates -->
-      <rect x="36" y="80" width="6" height="120" rx="2" fill="rgba(255,180,100,.7)"/>
-      <rect x="358" y="80" width="6" height="120" rx="2" fill="rgba(140,210,235,.85)"/>
-      <text x="39" y="74" text-anchor="middle" fill="rgba(255,180,100,.85)" font-size="16" font-weight="700">+</text>
-      <text x="361" y="74" text-anchor="middle" fill="rgba(140,210,235,.95)" font-size="16" font-weight="700">−</text>
-
-      <!-- Field lines between electrodes -->
-      <path d="M44 100 C 140 100, 260 100, 356 100" stroke="rgba(140,210,235,.35)" stroke-width="1" fill="none" stroke-dasharray="4 4"/>
-      <path d="M44 130 C 140 130, 260 130, 356 130" stroke="rgba(140,210,235,.4)" stroke-width="1" fill="none" stroke-dasharray="4 4"/>
-      <path d="M44 160 C 140 160, 260 160, 356 160" stroke="rgba(140,210,235,.4)" stroke-width="1" fill="none" stroke-dasharray="4 4"/>
-      <path d="M44 190 C 140 190, 260 190, 356 190" stroke="rgba(140,210,235,.35)" stroke-width="1" fill="none" stroke-dasharray="4 4"/>
-
-      <!-- Plant in the middle -->
-      <line x1="200" y1="225" x2="200" y2="120" stroke="rgba(120,210,120,.85)" stroke-width="2.5" stroke-linecap="round"/>
-      <path d="M200,180 Q175,165 155,172 Q180,150 200,180Z" fill="rgba(100,190,90,.45)" stroke="rgba(100,200,90,.85)" stroke-width="1"/>
-      <path d="M200,180 Q225,165 245,172 Q220,150 200,180Z" fill="rgba(100,190,90,.45)" stroke="rgba(100,200,90,.85)" stroke-width="1"/>
-      <path d="M200,150 Q175,135 155,142 Q180,118 200,150Z" fill="rgba(100,190,90,.4)" stroke="rgba(100,200,90,.75)" stroke-width="1"/>
-      <path d="M200,150 Q225,135 245,142 Q220,118 200,150Z" fill="rgba(100,190,90,.4)" stroke="rgba(100,200,90,.75)" stroke-width="1"/>
-      <path d="M200,123 Q190,118 184,108 Q197,100 200,123 Q203,100 216,108 Q210,118 200,123Z" fill="rgba(100,190,90,.5)" stroke="rgba(100,200,90,.85)" stroke-width="1"/>
-
-      <!-- Animated electron flowing through the field -->
-      <circle r="3.5" fill="rgba(180,230,255,.95)" opacity="0">
-        <animateMotion dur="4.5s" repeatCount="indefinite" path="M44,130 C 140,130, 260,130, 356,130"/>
-        <animate attributeName="opacity" begin="0s" to="1" dur="0.01s" fill="freeze"/>
-      </circle>
-
-      <!-- Energy label -->
-      <text x="200" y="258" text-anchor="middle" fill="rgba(255,255,255,.55)" font-size="11" font-family="monospace" font-weight="600">electron flow · energy economy</text>
-    </svg>
+    <img src="{{ '/assets/img/research/Electric.png' | relative_url }}" alt="Exploring electric fields as a new conceptual angle on plant energy economy — traditional photosynthesis and respiration pathways, uniform electric field application, and the unknown growth mechanism" class="rd-overview-split__illustration" style="border-radius:12px;max-width:100%;max-height:none">
   </div>
 </section>
 

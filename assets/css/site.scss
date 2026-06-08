@@ -1900,7 +1900,7 @@ a:hover{color:var(--accent)}
    RESEARCH BLOCKS (Google Research landing style)
    ========================= */
 .rblock{
-  padding:100px 0;
+  padding:56px 0;
   position:relative;
   overflow:hidden;
 }
@@ -2086,7 +2086,7 @@ a:hover{color:var(--accent)}
 
 /* --- Responsive --- */
 @media (max-width:900px){
-  .rblock{padding:72px 0}
+  .rblock{padding:48px 0}
   .rblock__inner{
     grid-template-columns:1fr;
     gap:48px;
@@ -2097,7 +2097,7 @@ a:hover{color:var(--accent)}
 }
 
 @media (max-width:600px){
-  .rblock{padding:56px 0}
+  .rblock{padding:40px 0}
   .rblock__inner{
     padding:0 20px;
     gap:36px;

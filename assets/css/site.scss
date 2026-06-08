@@ -2116,18 +2116,19 @@ a:hover{color:var(--accent)}
 .pub-filter{
   display:flex;
   flex-wrap:wrap;
-  gap:8px;
+  gap:6px;
   margin-bottom:48px;
 }
 
 .pub-filter__btn{
-  padding:6px 16px;
+  padding:6px 12px;
   border:1px solid var(--line);
   border-radius:20px;
   background:var(--panel);
   color:var(--text);
-  font-size:13px;
+  font-size:12px;
   font-family:inherit;
+  white-space:nowrap;
   cursor:pointer;
   transition:all .2s ease;
 }

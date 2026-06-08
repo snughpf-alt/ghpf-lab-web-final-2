@@ -2531,8 +2531,15 @@ a:hover{color:var(--accent)}
 .contact-page > .section:first-child{padding-top:72px}
 .contact-page > .section:last-child{padding-bottom:72px}
 .contact-page .section__head h2{
-  font-size:28px;
+  font-size:36px;
+  font-weight:700;
   letter-spacing:-.3px;
+}
+@media(max-width:900px){
+  .contact-page .section__head h2{font-size:28px}
+}
+@media(max-width:600px){
+  .contact-page .section__head h2{font-size:24px}
 }
 .contact-prose p{
   font-size:15.5px;

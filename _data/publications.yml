@@ -4,7 +4,7 @@
   venue: "IEEE Access 14 (2026): 9193-9200"
   doi: "10.1109/ACCESS.2026.3654178"
   arxiv: ""
-  tags: ["LLM", "Knowledge Graph", "Photosynthesis"]
+  tags: ["Language Models", "Photosynthesis"]
 
 - year: 2025
   authors: "Min-Seok Gang, Hak-Jin Kim, Sung Kwon Park, Woo-Jae Cho, Taehyeong Kim, Tae In Ahn, Joon Yong Kim, and Kue-Seung Hwang"
@@ -12,7 +12,7 @@
   venue: "Computers and Electronics in Agriculture 239 (2025): 111079"
   doi: "10.1016/j.compag.2025.111079"
   arxiv: ""
-  tags: ["Deep Learning", "Evapotranspiration", "Greenhouse"]
+  tags: ["Deep Learning"]
 
 - year: 2025
   authors: "Jun Hyeun Kang, Jung Eek Son, and Tae In Ahn"
@@ -20,7 +20,7 @@
   venue: "arXiv preprint arXiv:2511.15173 (2025)"
   doi: ""
   arxiv: "2511.15173"
-  tags: ["Data-Driven", "Light", "Phenotyping"]
+  tags: ["Phenotyping", "Photosynthesis"]
 
 - year: 2025
   authors: "Hyeonjee Kim, Eunjeong Lim, and Tae In Ahn"
@@ -28,7 +28,7 @@
   venue: "Journal of Bio-Environment Control 34.4 (2025): 619-630"
   doi: "10.12791/KSBEC.2025.34.4.619"
   arxiv: ""
-  tags: ["Photosynthesis", "Light"]
+  tags: ["Photosynthesis"]
 
 - year: 2025
   authors: "Min-Seok Gang, Hak-Jin Kim, Tae In Ahn, Woo-Jae Cho, Sang-Hyun Lee, Ju Young Lee, and Ji-Eun Hwang"
@@ -36,7 +36,7 @@
   venue: "Computers and Electronics in Agriculture 237 (2025): 110588"
   doi: "10.1016/j.compag.2025.110588"
   arxiv: ""
-  tags: ["Nutrient Management", "Hydroponics", "IoT"]
+  tags: ["Nutrient Management"]
 
 - year: 2025
   authors: "Jun Hyeun Kang, Ju Young Lee, and Tae In Ahn"
@@ -44,7 +44,7 @@
   venue: "Horticulture, Environment, and Biotechnology (2025): 1-12"
   doi: "10.1007/s13580-025-00699-7"
   arxiv: ""
-  tags: ["Light", "Photosynthesis"]
+  tags: ["Photosynthesis"]
 
 - year: 2025
   authors: "Seungri Yoon, Woosang Jeon, Sanghyeok Choi, Taehyeong Kim, and Tae In Ahn"
@@ -52,7 +52,7 @@
   venue: "arXiv preprint arXiv:2502.01059 (2025)"
   doi: ""
   arxiv: "2502.01059"
-  tags: ["LLM", "Photosynthesis", "Knowledge Graph"]
+  tags: ["Language Models", "Photosynthesis"]
 
 - year: 2024
   authors: "Tae In Ahn, Jung-Seok Yang, Yong-Hoon Im, Young Jik Youn, Dahae Kim, and Ju Young Lee"
@@ -60,7 +60,7 @@
   venue: "Journal of Cleaner Production 482 (2024): 144127"
   doi: "10.1016/j.jclepro.2024.144127"
   arxiv: ""
-  tags: ["Greenhouse", "Sustainability"]
+  tags: ["Nutrient Management"]
 
 - year: 2024
   authors: "Seungri Yoon, Yeyeong Lee, Eunkyu Jung, and Tae In Ahn"
@@ -68,7 +68,7 @@
   venue: "Journal of Bio-Environment Control 33.2 (2024): 120-128"
   doi: "10.12791/KSBEC.2024.33.2.120"
   arxiv: ""
-  tags: ["AI", "Computer Vision"]
+  tags: ["Computer Vision"]
 
 - year: 2024
   authors: "Seungri Yoon, Minju Shin, Jin Hyun Kim, Ho Jeong Jeong, Junyoung Park, and Tae In Ahn"
@@ -84,7 +84,7 @@
   venue: "Journal of Bio-Environment Control 33.4 (2024): 352-360"
   doi: "10.12791/KSBEC.2024.33.4.352"
   arxiv: ""
-  tags: ["Computer Vision", "AI"]
+  tags: ["Computer Vision"]
 
 - year: 2023
   authors: "Seungri Yoon, Minju Shin, Jin Hyun Kim, Ji Wong Bang, Ho Jeong Jeong, and Tae In Ahn"
@@ -100,7 +100,7 @@
   venue: "Scientia Horticulturae 311 (2023): 111806"
   doi: "10.1016/j.scienta.2022.111806"
   arxiv: ""
-  tags: ["Light", "Photosynthesis"]
+  tags: ["Modeling & Simulation", "Photosynthesis"]
 
 - year: 2023
   authors: "Seungri Yoon, Jin Hyun Kim, Minju Shin, Dongpil Kim, Ji Wong Bang, Ho Jeong Jeong, and Tae In Ahn"
@@ -108,7 +108,7 @@
   venue: "Journal of Bio-Environment Control 32.1 (2023): 48-56"
   doi: "10.12791/KSBEC.2023.32.1.048"
   arxiv: ""
-  tags: ["Greenhouse", "Light"]
+  tags: ["Photosynthesis"]
 
 - year: 2022
   authors: "Taewon Moon, Dongpil Kim, Sungmin Kwon, Tae In Ahn, and Jung Eek Son"
@@ -116,7 +116,7 @@
   venue: "Sensors 22.20 (2022): 7728"
   doi: "10.3390/s22207728"
   arxiv: ""
-  tags: ["Deep Learning", "Monitoring"]
+  tags: ["Deep Learning"]
 
 - year: 2022
   authors: "Tae In Ahn, and Jung Eek Son"
@@ -124,4 +124,4 @@
   venue: "Horticulturae 8.4 (2022): 295"
   doi: "10.3390/horticulturae8040295"
   arxiv: ""
-  tags: ["Nutrient Management", "Hydroponics"]
+  tags: ["Nutrient Management"]

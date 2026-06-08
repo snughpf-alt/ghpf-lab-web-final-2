@@ -295,9 +295,10 @@ a:hover{color:var(--accent)}
 .nav__dropdown-menu{
   position:absolute;
   top:100%;
-  left:-24px;
+  left:50%;
+  transform:translateX(-50%);
   padding-top:8px;
-  min-width:210px;
+  min-width:180px;
   background:var(--panel);
   border:1px solid var(--line);
   border-radius:12px;
@@ -318,12 +319,13 @@ a:hover{color:var(--accent)}
 .nav__dropdown:hover .nav__dropdown-menu{
   opacity:1;
   visibility:visible;
+  transform:translateX(-50%) translateY(0);
 }
 
 .nav__dropdown-menu a{
   display:block;
-  padding:16px 24px;
-  font-size:18px;
+  padding:12px 18px;
+  font-size:13px;
   color:var(--muted);
   text-decoration:none;
   transition:background .15s ease, color .15s ease;
@@ -2665,8 +2667,8 @@ a:hover{color:var(--accent)}
    NAV DROPDOWN GROUP LABELS
    ========================= */
 .nav__dropdown-group-label{
-  padding:16px 24px 8px;
-  font-size:12px;
+  padding:14px 18px 6px;
+  font-size:10px;
   font-weight:700;
   letter-spacing:.08em;
   text-transform:uppercase;

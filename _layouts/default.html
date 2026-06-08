@@ -22,7 +22,7 @@
     })();
   </script>
 </head>
-<body{% if page.url == '/' or page.url == '/index.html' %} class="home"{% elsif page.url contains '/people/' %} class="people-detail"{% endif %}>
+<body{% if page.url == '/' or page.url == '/index.html' %} class="home"{% elsif page.url contains '/people/' or page.url == '/team/' %} class="people-detail"{% endif %}>
 
   <!-- Skip to main content -->
   <a class="skip-link" href="#main-content">Skip to main content</a>

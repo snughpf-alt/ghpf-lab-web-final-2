@@ -21,8 +21,8 @@ title: Former Professor
       <img src="{{ p.photo | default: 'assets/img/team/default.svg' | relative_url }}" alt="{{ p.name | escape }}" onerror="this.src='{{ default_photo }}'">
     </div>
     <div class="pi-profile__body">
-      <h2 class="pi-profile__name">{{ p.name | escape }}</h2>
-      <p class="pi-profile__name-en">{{ p.name_en | escape }}</p>
+      <h2 class="pi-profile__name">{{ p.name_en | default: p.name | escape }}</h2>
+      <p class="pi-profile__name-en">{{ p.name | escape }}</p>
       <p class="pi-profile__role">{{ p.title | escape }}</p>
       <p class="pi-profile__role">{{ p.subtitle | escape }}</p>
     </div>

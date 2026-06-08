@@ -12,37 +12,60 @@ title: Electric Field Biology
     </div>
     <div class="page-hero__visual">
       <svg viewBox="0 0 360 280" fill="none" xmlns="http://www.w3.org/2000/svg" class="hero__diagram">
+        <defs>
+          <radialGradient id="ef-hero-glow" cx="50%" cy="55%" r="50%">
+            <stop offset="0%" stop-color="rgba(120,210,120,.40)"/>
+            <stop offset="100%" stop-color="rgba(120,210,120,0)"/>
+          </radialGradient>
+        </defs>
+
         <!-- Frame -->
         <rect x="20" y="10" width="320" height="260" rx="12" fill="rgba(255,255,255,.04)" stroke="rgba(255,255,255,.12)" stroke-width="1"/>
 
-        <!-- Electric field lines (concentric ellipses, dashed) -->
-        <ellipse cx="180" cy="155" rx="125" ry="62" fill="none" stroke="rgba(140,210,235,.18)" stroke-width="1" stroke-dasharray="3 4"/>
-        <ellipse cx="180" cy="155" rx="100" ry="50" fill="none" stroke="rgba(140,210,235,.25)" stroke-width="1" stroke-dasharray="3 4"/>
-        <ellipse cx="180" cy="155" rx="75" ry="38" fill="none" stroke="rgba(140,210,235,.32)" stroke-width="1" stroke-dasharray="3 4"/>
-
-        <!-- Charge poles (+/-) -->
-        <text x="46" y="160" fill="rgba(255,180,100,.75)" font-size="18" font-weight="700">+</text>
-        <text x="304" y="161" fill="rgba(140,210,235,.85)" font-size="18" font-weight="700">−</text>
-
-        <!-- Plant in the middle -->
-        <line x1="180" y1="215" x2="180" y2="115" stroke="rgba(120,210,120,.7)" stroke-width="2" stroke-linecap="round"/>
-        <!-- lower leaves -->
-        <path d="M180,180 Q160,168 145,175 Q165,158 180,180Z" fill="rgba(100,190,90,.4)" stroke="rgba(100,200,90,.7)" stroke-width="1"/>
-        <path d="M180,180 Q200,168 215,175 Q195,158 180,180Z" fill="rgba(100,190,90,.4)" stroke="rgba(100,200,90,.7)" stroke-width="1"/>
-        <!-- mid leaves -->
-        <path d="M180,150 Q158,138 142,146 Q164,126 180,150Z" fill="rgba(100,190,90,.35)" stroke="rgba(100,200,90,.6)" stroke-width="1"/>
-        <path d="M180,150 Q202,138 218,146 Q196,126 180,150Z" fill="rgba(100,190,90,.35)" stroke="rgba(100,200,90,.6)" stroke-width="1"/>
-        <!-- top sprout -->
-        <path d="M180,118 Q172,113 168,106 Q177,100 180,118 Q183,100 192,106 Q188,113 180,118Z" fill="rgba(100,190,90,.45)" stroke="rgba(100,200,90,.7)" stroke-width="1"/>
-
-        <!-- Animated electron particle along the middle field line -->
-        <circle r="3" fill="rgba(170,225,255,.85)" opacity="0">
-          <animateMotion dur="5s" repeatCount="indefinite" path="M280,155 A100,50 0 1,1 80,155 A100,50 0 1,1 280,155"/>
-          <animate attributeName="opacity" begin="0s" to="1" dur="0.01s" fill="freeze"/>
+        <!-- Energy glow behind the plant (breathing) -->
+        <circle cx="180" cy="162" r="52" fill="url(#ef-hero-glow)">
+          <animate attributeName="r" values="46;60;46" dur="4.5s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values=".55;1;.55" dur="4.5s" repeatCount="indefinite"/>
         </circle>
 
+        <!-- Electrode plates -->
+        <rect x="44" y="68" width="7" height="146" rx="3" fill="rgba(255,180,100,.9)"/>
+        <rect x="309" y="68" width="7" height="146" rx="3" fill="rgba(140,210,235,.95)"/>
+        <text x="47" y="58" text-anchor="middle" fill="rgba(255,180,100,.95)" font-size="18" font-weight="700">+</text>
+        <text x="312" y="58" text-anchor="middle" fill="rgba(140,210,235,1)" font-size="18" font-weight="700">−</text>
+
+        <!-- Uniform field lines (dashed, pulsing) -->
+        <g stroke-dasharray="4 5" stroke-width="1" fill="none" stroke="rgba(140,210,235,.5)">
+          <line x1="51" y1="90"  x2="309" y2="90"><animate attributeName="opacity" values=".22;.55;.22" dur="3s" begin="0s"    repeatCount="indefinite"/></line>
+          <line x1="51" y1="124" x2="309" y2="124"><animate attributeName="opacity" values=".3;.7;.3"    dur="3s" begin="-0.6s" repeatCount="indefinite"/></line>
+          <line x1="51" y1="158" x2="309" y2="158"><animate attributeName="opacity" values=".3;.7;.3"    dur="3s" begin="-1.2s" repeatCount="indefinite"/></line>
+          <line x1="51" y1="192" x2="309" y2="192"><animate attributeName="opacity" values=".3;.7;.3"    dur="3s" begin="-1.8s" repeatCount="indefinite"/></line>
+          <line x1="51" y1="214" x2="309" y2="214"><animate attributeName="opacity" values=".22;.55;.22" dur="3s" begin="-2.4s" repeatCount="indefinite"/></line>
+        </g>
+
+        <!-- Electrons drifting + → − (negative begin = no start flash) -->
+        <g fill="rgba(185,232,255,.95)">
+          <circle r="2.6"><animateMotion dur="3s"   begin="0s"    repeatCount="indefinite" path="M51,90 L309,90"/></circle>
+          <circle r="2.6"><animateMotion dur="3s"   begin="-1.5s" repeatCount="indefinite" path="M51,90 L309,90"/></circle>
+          <circle r="2.6"><animateMotion dur="2.6s" begin="-0.6s" repeatCount="indefinite" path="M51,124 L309,124"/></circle>
+          <circle r="2.6"><animateMotion dur="2.6s" begin="-1.9s" repeatCount="indefinite" path="M51,124 L309,124"/></circle>
+          <circle r="2.6"><animateMotion dur="2.8s" begin="-1s"   repeatCount="indefinite" path="M51,192 L309,192"/></circle>
+          <circle r="2.6"><animateMotion dur="3.2s" begin="-0.4s" repeatCount="indefinite" path="M51,214 L309,214"/></circle>
+        </g>
+
+        <!-- Plant in the middle (gentle sway) -->
+        <g>
+          <animateTransform attributeName="transform" type="rotate" values="-1.6 180 216;1.6 180 216;-1.6 180 216" dur="6s" repeatCount="indefinite"/>
+          <line x1="180" y1="216" x2="180" y2="112" stroke="rgba(120,210,120,.85)" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M180,182 Q156,168 138,175 Q164,150 180,182Z" fill="rgba(100,190,90,.5)" stroke="rgba(100,200,90,.85)" stroke-width="1"/>
+          <path d="M180,182 Q204,168 222,175 Q196,150 180,182Z" fill="rgba(100,190,90,.5)" stroke="rgba(100,200,90,.85)" stroke-width="1"/>
+          <path d="M180,150 Q156,136 138,143 Q164,118 180,150Z" fill="rgba(100,190,90,.45)" stroke="rgba(100,200,90,.75)" stroke-width="1"/>
+          <path d="M180,150 Q204,136 222,143 Q196,118 180,150Z" fill="rgba(100,190,90,.45)" stroke="rgba(100,200,90,.75)" stroke-width="1"/>
+          <path d="M180,116 Q170,110 165,101 Q177,94 180,116 Q183,94 195,101 Q190,110 180,116Z" fill="rgba(100,190,90,.55)" stroke="rgba(100,200,90,.85)" stroke-width="1"/>
+        </g>
+
         <!-- Label -->
-        <text x="180" y="248" text-anchor="middle" fill="rgba(255,255,255,.5)" font-size="12" font-family="monospace" font-weight="600">Field × Energy × Life</text>
+        <text x="180" y="252" text-anchor="middle" fill="rgba(255,255,255,.55)" font-size="11" font-family="monospace" font-weight="600">field × electron flow × energy</text>
       </svg>
     </div>
   </div>

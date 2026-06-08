@@ -30,7 +30,7 @@ permalink: /team/
     <div class="mosaic-group__faces">
       <div class="mosaic-face">
         <img src="{{ pi.photo | relative_url }}" alt="{{ pi.name | escape }}" onerror="this.src='{{ default_photo }}'">
-        <span class="mosaic-face__name">{{ pi.name | escape }}</span>
+        <span class="mosaic-face__name">{{ pi.name_en | default: pi.name | escape }}{% if pi.name_en %}<span class="mosaic-face__ko">{{ pi.name | escape }}</span>{% endif %}</span>
       </div>
     </div>
   </a>
@@ -45,13 +45,13 @@ permalink: /team/
       {% for m in phd_a %}{% unless m.photo contains '.svg' %}
       <div class="mosaic-face">
         <img src="{{ m.photo | relative_url }}" alt="{{ m.name | escape }}" onerror="this.src='{{ default_photo }}'">
-        <span class="mosaic-face__name">{{ m.name | escape }}</span>
+        <span class="mosaic-face__name">{{ m.name_en | default: m.name | escape }}{% if m.name_en %}<span class="mosaic-face__ko">{{ m.name | escape }}</span>{% endif %}</span>
       </div>
       {% endunless %}{% endfor %}
       {% for m in phd_b %}{% unless m.photo contains '.svg' %}
       <div class="mosaic-face">
         <img src="{{ m.photo | relative_url }}" alt="{{ m.name | escape }}" onerror="this.src='{{ default_photo }}'">
-        <span class="mosaic-face__name">{{ m.name | escape }}</span>
+        <span class="mosaic-face__name">{{ m.name_en | default: m.name | escape }}{% if m.name_en %}<span class="mosaic-face__ko">{{ m.name | escape }}</span>{% endif %}</span>
       </div>
       {% endunless %}{% endfor %}
     </div>
@@ -67,7 +67,7 @@ permalink: /team/
       {% for m in ms_all %}{% unless m.photo contains '.svg' %}
       <div class="mosaic-face">
         <img src="{{ m.photo | relative_url }}" alt="{{ m.name | escape }}" onerror="this.src='{{ default_photo }}'">
-        <span class="mosaic-face__name">{{ m.name | escape }}</span>
+        <span class="mosaic-face__name">{{ m.name_en | default: m.name | escape }}{% if m.name_en %}<span class="mosaic-face__ko">{{ m.name | escape }}</span>{% endif %}</span>
       </div>
       {% endunless %}{% endfor %}
     </div>
@@ -83,7 +83,7 @@ permalink: /team/
       {% for m in ug_all %}
       <div class="mosaic-face">
         <img src="{{ m.photo | relative_url }}" alt="{{ m.name | escape }}" onerror="this.src='{{ default_photo }}'">
-        <span class="mosaic-face__name">{{ m.name | escape }}</span>
+        <span class="mosaic-face__name">{{ m.name_en | default: m.name | escape }}{% if m.name_en %}<span class="mosaic-face__ko">{{ m.name | escape }}</span>{% endif %}</span>
       </div>
       {% endfor %}
     </div>
@@ -99,7 +99,7 @@ permalink: /team/
       {% for m in al_all %}
       <div class="mosaic-face">
         <img src="{{ m.photo | relative_url }}" alt="{{ m.name | escape }}" onerror="this.src='{{ default_photo }}'">
-        <span class="mosaic-face__name">{{ m.name | escape }}</span>
+        <span class="mosaic-face__name">{{ m.name_en | default: m.name | escape }}{% if m.name_en %}<span class="mosaic-face__ko">{{ m.name | escape }}</span>{% endif %}</span>
       </div>
       {% endfor %}
     </div>

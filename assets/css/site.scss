@@ -1897,6 +1897,14 @@ a:hover{color:var(--accent)}
   border-top:1px solid var(--line);
 }
 
+/* Match People landing vertical rhythm (top 56 / bottom 80) */
+.page-hero + .rblock{
+  padding-top:56px;
+}
+.rblock:last-of-type{
+  padding-bottom:80px;
+}
+
 .rblock__inner{
   display:grid;
   grid-template-columns:1fr 1fr;

@@ -2116,17 +2116,17 @@ a:hover{color:var(--accent)}
 .pub-filter{
   display:flex;
   flex-wrap:wrap;
-  gap:6px;
+  gap:8px;
   margin-bottom:48px;
 }
 
 .pub-filter__btn{
-  padding:6px 12px;
+  padding:6px 16px;
   border:1px solid var(--line);
   border-radius:20px;
   background:var(--panel);
   color:var(--text);
-  font-size:12px;
+  font-size:13px;
   font-family:inherit;
   white-space:nowrap;
   cursor:pointer;

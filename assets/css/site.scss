@@ -323,7 +323,7 @@ a:hover{color:var(--accent)}
 .nav__dropdown-menu a{
   display:block;
   padding:16px 24px;
-  font-size:16px;
+  font-size:18px;
   color:var(--muted);
   text-decoration:none;
   transition:background .15s ease, color .15s ease;
@@ -2666,7 +2666,7 @@ a:hover{color:var(--accent)}
    ========================= */
 .nav__dropdown-group-label{
   padding:16px 24px 8px;
-  font-size:11px;
+  font-size:12px;
   font-weight:700;
   letter-spacing:.08em;
   text-transform:uppercase;

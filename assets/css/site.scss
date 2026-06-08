@@ -2528,7 +2528,7 @@ a:hover{color:var(--accent)}
 /* --- Contact page (uses the navigating-page section pattern) --- */
 .contact-page .section{padding:48px 0}
 .contact-page .section + .section{padding-top:24px}
-.contact-page > .section:first-child{padding-top:72px}
+.contact-page > .section:first-child{padding-top:24px}
 .contact-page > .section:last-child{padding-bottom:72px}
 .contact-page .section__head h2{
   font-size:25px;

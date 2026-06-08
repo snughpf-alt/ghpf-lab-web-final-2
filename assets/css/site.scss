@@ -1577,6 +1577,7 @@ a:hover{color:var(--accent)}
   grid-template-columns:5fr 4fr;
   gap:48px;
   align-items:center;
+  min-height:380px;
 }
 
 .page-hero__text{
@@ -1660,7 +1661,7 @@ a:hover{color:var(--accent)}
 
 @media (max-width:900px){
   .page-hero{padding:48px 0 36px}
-  .page-hero__inner{grid-template-columns:1fr;gap:36px}
+  .page-hero__inner{grid-template-columns:1fr;gap:36px;min-height:auto}
   .page-hero__title{font-size:40px}
   .page-hero__stats{max-width:320px;margin:0 auto}
 }

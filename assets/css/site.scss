@@ -2531,15 +2531,12 @@ a:hover{color:var(--accent)}
 .contact-page > .section:first-child{padding-top:72px}
 .contact-page > .section:last-child{padding-bottom:72px}
 .contact-page .section__head h2{
-  font-size:36px;
-  font-weight:700;
-  letter-spacing:-.3px;
+  font-size:25px;
+  font-weight:800;
+  letter-spacing:-.02em;
 }
-@media(max-width:768px){
-  .contact-page .section__head h2{font-size:28px}
-}
-@media(max-width:480px){
-  .contact-page .section__head h2{font-size:24px}
+@media(max-width:640px){
+  .contact-page .section__head h2{font-size:23px}
 }
 .contact-prose p{
   font-size:15.5px;

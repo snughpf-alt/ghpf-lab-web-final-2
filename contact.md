@@ -9,7 +9,7 @@ title: Contact
   desc="Interested in collaboration, joining our&nbsp;lab, or learning more about our&nbsp;research? We'd love to hear from&nbsp;you."
 %}
 
-<div class="container container--content contact-page">
+<div class="container contact-page">
 
   <!-- ───── About ───── -->
   <section class="section">

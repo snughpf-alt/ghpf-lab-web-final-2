@@ -19,7 +19,7 @@ permalink: /team/
   desc="The researchers and students of GHPF Lab."
 %}
 
-<div class="container container--content people-mosaic">
+<div class="container people-mosaic">
 
   <!-- PI -->
   <a href="{{ '/people/professor' | relative_url }}" class="mosaic-group">

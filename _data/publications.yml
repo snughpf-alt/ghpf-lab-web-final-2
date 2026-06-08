@@ -12,7 +12,7 @@
   venue: "Computers and Electronics in Agriculture 239 (2025): 111079"
   doi: "10.1016/j.compag.2025.111079"
   arxiv: ""
-  tags: ["Deep Learning"]
+  tags: ["Deep Learning", "Greenhouse"]
 
 - year: 2025
   authors: "Jun Hyeun Kang, Jung Eek Son, and Tae In Ahn"
@@ -28,7 +28,7 @@
   venue: "Journal of Bio-Environment Control 34.4 (2025): 619-630"
   doi: "10.12791/KSBEC.2025.34.4.619"
   arxiv: ""
-  tags: ["Photosynthesis"]
+  tags: ["Photosynthesis", "Plant Factory"]
 
 - year: 2025
   authors: "Min-Seok Gang, Hak-Jin Kim, Tae In Ahn, Woo-Jae Cho, Sang-Hyun Lee, Ju Young Lee, and Ji-Eun Hwang"
@@ -60,7 +60,7 @@
   venue: "Journal of Cleaner Production 482 (2024): 144127"
   doi: "10.1016/j.jclepro.2024.144127"
   arxiv: ""
-  tags: ["Nutrient Management"]
+  tags: ["Nutrient Management", "Greenhouse"]
 
 - year: 2024
   authors: "Seungri Yoon, Yeyeong Lee, Eunkyu Jung, and Tae In Ahn"
@@ -100,7 +100,7 @@
   venue: "Scientia Horticulturae 311 (2023): 111806"
   doi: "10.1016/j.scienta.2022.111806"
   arxiv: ""
-  tags: ["Modeling & Simulation", "Photosynthesis"]
+  tags: ["Modeling & Simulation", "Photosynthesis", "Plant Factory"]
 
 - year: 2023
   authors: "Seungri Yoon, Jin Hyun Kim, Minju Shin, Dongpil Kim, Ji Wong Bang, Ho Jeong Jeong, and Tae In Ahn"
@@ -108,7 +108,7 @@
   venue: "Journal of Bio-Environment Control 32.1 (2023): 48-56"
   doi: "10.12791/KSBEC.2023.32.1.048"
   arxiv: ""
-  tags: ["Photosynthesis"]
+  tags: ["Photosynthesis", "Greenhouse"]
 
 - year: 2022
   authors: "Taewon Moon, Dongpil Kim, Sungmin Kwon, Tae In Ahn, and Jung Eek Son"

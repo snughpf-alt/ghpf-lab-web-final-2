@@ -2128,6 +2128,7 @@ a:hover{color:var(--accent)}
   color:var(--text);
   font-size:13px;
   font-family:inherit;
+  white-space:nowrap;
   cursor:pointer;
   transition:all .2s ease;
 }

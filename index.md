@@ -48,7 +48,7 @@ title: Home
 
       <a class="card highlight-card highlight-card--media" href="{{ '/research/electric-fields' | relative_url }}">
         <div class="highlight-card__media">
-          <img src="{{ '/assets/img/hero-electric-field.jpg' | relative_url }}" alt="Growth chamber setup for electric field treatment experiments" loading="lazy">
+          <img src="{{ '/assets/img/research/ef-petri-trays.jpg' | relative_url }}" alt="Petri dishes and seed trays inside a growth chamber for electric field treatment experiments" loading="lazy">
         </div>
         <div class="highlight-card__body">
           <span class="highlight-card__label">Track 1 · Decoding Complexity</span>

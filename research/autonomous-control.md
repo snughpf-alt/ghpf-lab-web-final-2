@@ -63,7 +63,7 @@ title: LLM Application in Agriculture
     <p class="rd-overview-split__desc">Skilled farmers and researchers have accumulated specialized knowledge in their fields through years of experience. We are exploring whether large language models can acquire this expertise and apply it to real-world agricultural tasks. This encompasses a wide range of areas, from autonomous agricultural agents that make decisions in the fields to knowledge graphs that organize scientific literature to support research discoveries.</p>
   </div>
   <div class="rd-overview-split__visual" style="background:transparent;padding:24px">
-    <img src="{{ '/assets/img/research/llm-acquire-apply.png' | relative_url }}" alt="How LLMs acquire and apply agricultural expertise — flow from farmers and researchers through an LLM into autonomous agents and knowledge graphs, with a task performance radar chart comparing agriculture-tuned vs general LLM" class="rd-overview-split__illustration" style="border-radius:12px;max-width:100%;max-height:none">
+    <img src="{{ '/assets/img/research/llm-agri-framework.png' | relative_url }}" alt="Framework bridging field experience and scientific knowledge through a domain-adapted language model into agricultural intelligence and scientific discovery" class="rd-overview-split__illustration" style="border-radius:12px;max-width:100%;max-height:none">
   </div>
 </section>
 
@@ -90,7 +90,7 @@ title: LLM Application in Agriculture
       <div class="rd-topics-grid__card">
         <img src="{{ '/assets/img/research/knowledge-graph-system.png' | relative_url }}" alt="Advanced Knowledge Graph System interface showing graph visualization and analysis panels" style="object-fit:contain;object-position:50% 30%;background:#fff">
         <div class="rd-topics-grid__caption">
-          <h3>Knowledge Graph</h3>
+          <h3>Knowledge-Integrated Modeling & Validation</h3>
           <div class="rd-topics-grid__keywords">
             <span class="badge">Knowledge Integration</span>
             <span class="badge">Multi-scale Modeling</span>

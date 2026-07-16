@@ -86,6 +86,10 @@ phd_students:
   name_en: Byeongju Kang
   email: qudwn8331@snu.ac.kr
   photo: assets/img/team/kang-byeongju.svg
+- name: 김현지
+  name_en: Hyeonjee Kim
+  email: khjkhj0628@snu.ac.kr
+  photo: assets/img/team/Hyeonjii-Kim.jpg
 ms_students:
 - name: 김수진
   name_en: Sujin Kim
@@ -95,10 +99,6 @@ ms_students:
   name_en: Minhee Han
   email: 109vv@snu.ac.kr
   photo: assets/img/team/han-minhee.svg
-- name: 김현지
-  name_en: Hyeonjee Kim
-  email: khjkhj0628@snu.ac.kr
-  photo: assets/img/team/Hyeonjii-Kim.jpg
 - name: 김정호
   name_en: Jeongho Kim
   email: ddd162@snu.ac.kr
@@ -107,7 +107,6 @@ ms_students:
   name_en: Junyoung Ko
   email: sat1153@snu.ac.kr
   photo: assets/img/team/Junyoung-Ko.jpg
-interns:
 - name: 조준영
   name_en: Junyoung Jo
   email: highlife0320@snu.ac.kr
@@ -116,6 +115,7 @@ interns:
   name_en: Minseo Kim
   email: rodi7555@snu.ac.kr
   photo: assets/img/team/kim-minseo.jpg
+interns:
 - name: 방유찬
   name_en: Yuchan Bang
   email: uchan812@snu.ac.kr

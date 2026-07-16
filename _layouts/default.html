@@ -98,15 +98,9 @@
   <!-- FOOTER -->
   <footer class="footer">
     <div class="container footer__copy">
-      <span class="footer__logo-tap" aria-hidden="true">&copy; {{ site.time | date: "%Y" }} GHPF Lab.</span> All rights reserved.
+      &copy; {{ site.time | date: "%Y" }} GHPF Lab. All rights reserved.
     </div>
   </footer>
-
-  <!-- Monchhichi Easter Egg -->
-  <div class="monchhichi" id="monchhichi">
-    <img class="mc__img" src="{{ '/assets/img/monchhichi.png' | relative_url }}" alt="" draggable="false">
-    <p class="mc__msg">You found me!</p>
-  </div>
 
   <script>
     (function(){
@@ -240,25 +234,6 @@
         function escAttr(s){
           return s.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/'/g,'&#39;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
         }
-      })();
-
-      /* Monchhichi easter egg */
-      (function(){
-        var logo = document.querySelector('.footer__logo-tap');
-        var mc = document.getElementById('monchhichi');
-        if(!logo || !mc) return;
-        var count = 0, timer = null;
-        logo.addEventListener('click', function(){
-          count++;
-          clearTimeout(timer);
-          timer = setTimeout(function(){ count = 0; }, 1500);
-          if(count >= 7){
-            count = 0;
-            mc.classList.add('monchhichi--visible');
-            setTimeout(function(){ mc.classList.remove('monchhichi--visible'); }, 4000);
-          }
-        });
-        mc.addEventListener('click', function(){ mc.classList.remove('monchhichi--visible'); });
       })();
     })();
   </script>

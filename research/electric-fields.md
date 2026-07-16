@@ -79,7 +79,7 @@ title: Electric Field Biology
     <p class="rd-overview-split__desc">Exposure to electric fields has been reported to enhance plant growth and development, yet the mechanistic basis of these responses remains a black box — an open frontier in plant–environment research that we set out to explore.</p>
   </div>
   <div class="rd-overview-split__visual" style="background:transparent;padding:24px">
-    <img src="{{ '/assets/img/research/Electric.png' | relative_url }}" alt="Exploring electric fields as a new conceptual angle on plant energy economy — traditional photosynthesis and respiration pathways, uniform electric field application, and the unknown growth mechanism" class="rd-overview-split__illustration" style="border-radius:12px;max-width:100%;max-height:none">
+    <img src="{{ '/assets/img/research/electric-field-overview.png' | relative_url }}" alt="Exploring electric fields as a new conceptual angle on plant energy economy — traditional photosynthesis and respiration pathways, uniform electric field application, and the unknown growth mechanism" class="rd-overview-split__illustration" style="border-radius:12px;max-width:100%;max-height:none">
   </div>
 </section>
 

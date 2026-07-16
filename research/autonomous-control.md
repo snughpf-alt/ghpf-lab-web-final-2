@@ -77,7 +77,7 @@ title: LLM Application in Agriculture
       <div class="rd-topics-grid__card">
         <img src="{{ '/assets/img/research/autonomous-irrigation.jpg' | relative_url }}" alt="Autonomous irrigation diagram comparing Agent AI and Accumulated Solar Radiation strategies" style="object-fit:contain;object-position:50% 30%;background:#fff">
         <div class="rd-topics-grid__caption">
-          <h3>Autonomous Irrigation</h3>
+          <h3>Autonomous Environmental Control</h3>
           <div class="rd-topics-grid__keywords">
             <span class="badge">Function Calling</span>
             <span class="badge">Experience Memory</span>

@@ -338,6 +338,25 @@ a:hover{color:var(--accent)}
   color:var(--text);
 }
 
+/* --- Mobile menu toggle (hamburger) --- */
+.nav__menu-toggle{
+  display:none;
+  background:none;
+  border:1.5px solid var(--line);
+  border-radius:8px;
+  width:36px;
+  height:36px;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+  color:var(--muted);
+  padding:0;
+  flex-shrink:0;
+}
+.nav__menu-toggle .icon-close{ display:none }
+.nav--menu-open .nav__menu-toggle .icon-burger{ display:none }
+.nav--menu-open .nav__menu-toggle .icon-close{ display:block }
+
 /* =========================
    BUTTONS
    ========================= */
@@ -1495,29 +1514,39 @@ a:hover{color:var(--accent)}
 }
 
 @media (max-width:600px){
-  .nav__inner{height:56px;flex-wrap:wrap;height:auto;padding:8px 0}
-  .nav__left{width:100%;order:1}
-  .nav__right{width:100%;order:2;margin-top:6px;justify-content:flex-start}
-  .nav__search{flex:1}
+  /* Collapsed header: just the brand + icon buttons. Search and links
+     tuck behind the hamburger so the row never crowds or wraps. */
+  .nav__inner{flex-wrap:wrap;height:auto;padding:10px 0}
+  .nav__left,
+  .nav__right{display:contents}
+  .brand{order:1;font-size:17px}
+  .theme-toggle{order:2;width:32px;height:32px}
+  .theme-toggle svg{width:16px;height:16px}
+  .nav__menu-toggle{display:flex;order:3}
+
+  .nav__search{order:4;flex-basis:100%;width:100%;display:none;margin-top:12px}
   .nav__search-input{width:100%}
   .nav__search-input:focus{width:100%}
-  .nav__search-results{width:calc(100vw - 32px);right:auto;left:0}
+  .nav__search-results{width:100%;right:auto;left:0}
+
   .nav__links{
-    overflow-x:auto;
-    -webkit-overflow-scrolling:touch;
-    scrollbar-width:none;
-    gap:0;
-    flex-shrink:1;
-    min-width:0;
+    order:5;
+    flex-basis:100%;
+    width:100%;
+    display:none;
+    flex-direction:column;
+    align-items:stretch;
+    gap:2px;
+    margin-top:12px;
+    margin-left:0;
+    padding-bottom:12px;
   }
-  .nav__links::-webkit-scrollbar{display:none}
-  .nav__links a{margin-left:10px;font-size:12px;white-space:nowrap}
-  .nav__dropdown{margin-left:10px}
-  .nav__dropdown-menu{left:0;transform:translateX(0);padding-top:6px;min-width:160px}
-  .nav__dropdown:hover .nav__dropdown-menu{transform:translateX(0)}
-  .brand{font-size:17px}
-  .theme-toggle{width:32px;height:32px}
-  .theme-toggle svg{width:16px;height:16px}
+  .nav__links a{margin-left:0;font-size:15px;padding:11px 4px;white-space:normal}
+  .nav__dropdown{margin-left:0;width:100%}
+  .nav__dropdown-trigger{width:100%;padding:11px 4px;justify-content:space-between}
+
+  .nav--menu-open .nav__search,
+  .nav--menu-open .nav__links{display:flex}
   .hero--fullscreen{min-height:calc(100svh - 52px)}
   .hero--fullscreen .pill{font-size:12px;letter-spacing:1.2px;gap:8px;margin-bottom:14px}
   .hero--fullscreen h1{font-size:25px;font-weight:700;max-width:24ch;white-space:normal;margin-bottom:12px}
@@ -2785,6 +2814,7 @@ a:hover{color:var(--accent)}
 .theme-toggle .icon-sun{ display:none }
 [data-theme="dark"] .theme-toggle .icon-moon{ display:none }
 [data-theme="dark"] .theme-toggle .icon-sun{ display:block }
+
 
 /* =========================
    DARK MODE

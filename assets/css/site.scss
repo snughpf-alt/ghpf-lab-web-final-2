@@ -1519,9 +1519,10 @@ a:hover{color:var(--accent)}
   .theme-toggle{width:32px;height:32px}
   .theme-toggle svg{width:16px;height:16px}
   .hero--fullscreen{min-height:calc(100svh - 52px)}
-  .hero--fullscreen .pill{font-size:13px;letter-spacing:1.8px;gap:10px;margin-bottom:20px}
-  .hero--fullscreen h1{font-size:30px;font-weight:700;max-width:22ch;white-space:normal}
-  .hero--fullscreen .lead{font-size:15px}
+  .hero--fullscreen .pill{font-size:12px;letter-spacing:1.2px;gap:8px;margin-bottom:14px}
+  .hero--fullscreen h1{font-size:25px;font-weight:700;max-width:24ch;white-space:normal;margin-bottom:12px}
+  .hero--fullscreen .lead{font-size:14px}
+  .hero--fullscreen .hero__cta{margin-top:18px;gap:10px}
   .hero--fullscreen .hero__inner{padding:0 20px}
   .hero__scroll{bottom:24px}
   .hero__scroll-label{font-size:11px}

@@ -62,10 +62,6 @@ phd_students:
   name_en: Eunjeong Lim
   email: eunjeong21@snu.ac.kr
   photo: assets/img/team/lim-eunjeong.jpg
-- name: 윤승리
-  name_en: Seungri Yoon
-  email: ysl2848@snu.ac.kr
-  photo: assets/img/team/yoon-seungri.svg
 - name: 김다솔
   name_en: Dasol Kim
   email: evergreen_dasol@snu.ac.kr
@@ -157,3 +153,6 @@ alumni:
   name_en: Hamin Yoon
   note: Macrogen Europe, Netherlands
   photo: assets/img/team/Hamin-Yoon.jpg
+- name: 윤승리
+  name_en: Seungri Yoon
+  photo: assets/img/team/yoon-seungri.svg

@@ -4,7 +4,7 @@ title: Home
 ---
 
 {% include hero.html
-  images="/assets/img/hero-plant-factory.jpg,/assets/img/hero-greenhouse.jpg,/assets/img/hero-photoconversion-film.jpg,/assets/img/hero-plant-led.jpg,/assets/img/hero-plant-led2.jpg,/assets/img/hero-phenotyping.jpg"
+  images="/assets/img/hero-plant-factory.jpg,/assets/img/hero-electric-field.jpg,/assets/img/hero-greenhouse.jpg,/assets/img/hero-photoconversion-film.jpg,/assets/img/hero-plant-led.jpg,/assets/img/hero-plant-led2.jpg,/assets/img/hero-phenotyping.jpg"
   pill="Greenhouse Horticulture and Plant Factory Lab"
   title="Decoding Plant-Environment Complexity<br>and Engineering Cultivation Systems"
   subtitle=""

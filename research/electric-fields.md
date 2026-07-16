@@ -89,9 +89,9 @@ title: Electric Field Biology
     <h2>Research Topics</h2>
     <p class="rd-band__subtitle">From the mechanism of how plants sense an external electric field, to the energy economy that runs every cell — two angles on a single frontier.</p>
 
-    <div class="rd-topics-grid rd-topics-grid--2col">
+    <div class="rd-topics-grid rd-topics-grid--2col rd-topics-grid--light">
       <div class="rd-topics-grid__card">
-        <div class="rd-topics-grid__placeholder-img"><span>Photo</span></div>
+        <img src="{{ '/assets/img/research/ef-growth.png' | relative_url }}" alt="Growth response to electric field — control (CT) vs electric-field (EF) plants showing larger leaf area, higher electron transport rate, and greater shoot fresh weight" style="object-fit:contain;object-position:50% 42%;background:#fff">
         <div class="rd-topics-grid__caption">
           <h3>Electric Field Responses</h3>
           <div class="rd-topics-grid__keywords">
@@ -104,7 +104,7 @@ title: Electric Field Biology
       </div>
 
       <div class="rd-topics-grid__card">
-        <div class="rd-topics-grid__placeholder-img"><span>Photo</span></div>
+        <img src="{{ '/assets/img/research/ef-photosynthesis.png' | relative_url }}" alt="Photosynthetic electron transport under electric field — light and dark reaction scheme with chlorophyll fluorescence parameters (Fv/Fm, Y(II), ETR, NPQ) comparing control and electric-field treatments" style="object-fit:contain;object-position:50% 35%;background:#fff">
         <div class="rd-topics-grid__caption">
           <h3>Energy Economy of Plants</h3>
           <div class="rd-topics-grid__keywords">

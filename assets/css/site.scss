@@ -1548,10 +1548,10 @@ a:hover{color:var(--accent)}
   .nav--menu-open .nav__search,
   .nav--menu-open .nav__links{display:flex}
   .hero--fullscreen{min-height:calc(100svh - 52px)}
-  .hero--fullscreen .pill{font-size:12px;letter-spacing:1.2px;gap:8px;margin-bottom:14px}
-  .hero--fullscreen h1{font-size:25px;font-weight:700;max-width:24ch;white-space:normal;margin-bottom:12px}
+  .hero--fullscreen .pill{font-size:14px;letter-spacing:1.4px;gap:8px;margin-bottom:18px;font-weight:700}
+  .hero--fullscreen h1{font-size:32px;font-weight:800;max-width:20ch;white-space:normal;margin-bottom:12px}
   .hero--fullscreen .lead{font-size:14px}
-  .hero--fullscreen .hero__cta{margin-top:18px;gap:10px}
+  .hero--fullscreen .hero__cta{display:none}
   .hero--fullscreen .hero__inner{padding:0 20px}
   .hero__scroll{bottom:24px}
   .hero__scroll-label{font-size:11px}

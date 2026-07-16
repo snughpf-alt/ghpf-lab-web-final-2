@@ -1520,8 +1520,7 @@ a:hover{color:var(--accent)}
   .nav__left,
   .nav__right{display:contents}
   .brand{order:1;font-size:17px}
-  .theme-toggle{order:2;width:32px;height:32px}
-  .theme-toggle svg{width:16px;height:16px}
+  .theme-toggle{display:none}
   .nav__menu-toggle{display:flex;order:3}
 
   .nav__search{order:4;flex-basis:100%;width:100%;display:none;margin-top:12px}

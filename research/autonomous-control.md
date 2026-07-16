@@ -90,7 +90,7 @@ title: LLM Application in Agriculture
       <div class="rd-topics-grid__card">
         <img src="{{ '/assets/img/research/knowledge-graph-system.png' | relative_url }}" alt="Advanced Knowledge Graph System interface showing graph visualization and analysis panels" style="object-fit:contain;object-position:50% 30%;background:#fff">
         <div class="rd-topics-grid__caption">
-          <h3>Knowledge Graph</h3>
+          <h3>Knowledge-Integrated Modeling & Validation</h3>
           <div class="rd-topics-grid__keywords">
             <span class="badge">Knowledge Integration</span>
             <span class="badge">Multi-scale Modeling</span>

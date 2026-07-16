@@ -77,7 +77,7 @@ title: LLM Application in Agriculture
       <div class="rd-topics-grid__card">
         <img src="{{ '/assets/img/research/autonomous-irrigation.jpg' | relative_url }}" alt="Autonomous irrigation diagram comparing Agent AI and Accumulated Solar Radiation strategies" style="object-fit:contain;object-position:50% 30%;background:#fff">
         <div class="rd-topics-grid__caption">
-          <h3>Autonomous Irrigation</h3>
+          <h3>Autonomous Environmental Control</h3>
           <div class="rd-topics-grid__keywords">
             <span class="badge">Function Calling</span>
             <span class="badge">Experience Memory</span>
@@ -90,11 +90,11 @@ title: LLM Application in Agriculture
       <div class="rd-topics-grid__card">
         <img src="{{ '/assets/img/research/knowledge-graph-system.png' | relative_url }}" alt="Advanced Knowledge Graph System interface showing graph visualization and analysis panels" style="object-fit:contain;object-position:50% 30%;background:#fff">
         <div class="rd-topics-grid__caption">
-          <h3>Knowledge Graph Construction</h3>
+          <h3>Knowledge Graph</h3>
           <div class="rd-topics-grid__keywords">
-            <span class="badge">Literature Mining</span>
-            <span class="badge">Entity Extraction</span>
-            <span class="badge">Research Discovery</span>
+            <span class="badge">Knowledge Integration</span>
+            <span class="badge">Multi-scale Modeling</span>
+            <span class="badge">Automated Validation</span>
           </div>
         </div>
         <p class="rd-topics-grid__desc">Automated mining of scientific literature to build large-scale knowledge networks for research discovery</p>

@@ -338,24 +338,24 @@ a:hover{color:var(--accent)}
   color:var(--text);
 }
 
-/* --- Mobile menu toggle (hamburger) --- */
+/* --- Mobile menu toggle (text label) --- */
 .nav__menu-toggle{
   display:none;
   background:none;
-  border:1.5px solid var(--line);
-  border-radius:8px;
-  width:36px;
-  height:36px;
+  border:none;
   align-items:center;
   justify-content:center;
   cursor:pointer;
-  color:var(--muted);
+  color:var(--text);
+  font-family:inherit;
+  font-size:14px;
+  font-weight:600;
   padding:0;
   flex-shrink:0;
 }
-.nav__menu-toggle .icon-close{ display:none }
-.nav--menu-open .nav__menu-toggle .icon-burger{ display:none }
-.nav--menu-open .nav__menu-toggle .icon-close{ display:block }
+.nav__menu-toggle .label-close{ display:none }
+.nav--menu-open .nav__menu-toggle .label-menu{ display:none }
+.nav--menu-open .nav__menu-toggle .label-close{ display:inline }
 
 /* =========================
    BUTTONS
@@ -1520,7 +1520,7 @@ a:hover{color:var(--accent)}
   .nav__left,
   .nav__right{display:contents}
   .brand{order:1;font-size:17px}
-  .theme-toggle{display:none}
+  .theme-toggle{display:none !important}
   .nav__menu-toggle{display:flex;order:3}
 
   .nav__search{order:4;flex-basis:100%;width:100%;display:none;margin-top:12px}

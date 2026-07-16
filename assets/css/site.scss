@@ -132,7 +132,7 @@ a:hover{color:var(--accent)}
 }
 
 .brand{
-  font-weight:400;
+  font-weight:700;
   font-size:15px;
   letter-spacing:.2px;
   text-decoration:none;
@@ -1516,7 +1516,8 @@ a:hover{color:var(--accent)}
 @media (max-width:600px){
   /* Collapsed header: just the brand + icon buttons. Search and links
      tuck behind the hamburger so the row never crowds or wraps. */
-  .nav__inner{flex-wrap:wrap;height:auto;padding:10px 0}
+  .nav__inner{flex-wrap:wrap;height:auto}
+  .nav .container{padding:14px 20px}
   .nav__left,
   .nav__right{display:contents}
   .brand{order:1;font-size:17px}

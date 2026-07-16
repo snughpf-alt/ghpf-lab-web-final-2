@@ -1571,10 +1571,6 @@ a:hover{color:var(--accent)}
   margin:0 0 20px;
 }
 
-[data-theme="dark"] .page-hero__label{
-  color:#38bdf8;
-}
-
 .page-hero__title{
   font-size:54px;
   font-weight:300;
@@ -2800,7 +2796,7 @@ a:hover{color:var(--accent)}
   --line:rgba(255,255,255,.07);
   --panel:#0f172a;
   --panel2:#1e293b;
-  --accent:#22d3ee;
+  --accent:#fb7185;
   --accent2:#c084fc;
   --accent3:#f1f5f9;
   --navbg:rgba(3,7,18,.97);
@@ -2833,8 +2829,8 @@ a:hover{color:var(--accent)}
   background:var(--panel);
 }
 [data-theme="dark"] .card:hover{
-  border-color:rgba(34,211,238,.2);
-  box-shadow:0 8px 28px rgba(0,0,0,.45), 0 0 1px rgba(34,211,238,.15);
+  border-color:rgba(251,113,133,.25);
+  box-shadow:0 8px 28px rgba(0,0,0,.45), 0 0 1px rgba(251,113,133,.18);
 }
 
 [data-theme="dark"] .badge{
